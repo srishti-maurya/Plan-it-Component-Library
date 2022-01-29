@@ -1,0 +1,39 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+/* colors */
+:root {
+  --primary: #15325e;
+  --secondary: #cbdc29;
+  --accent: #ec4e20;
+  --background: #eee2df;
+  --light: #cee5f2;
+  --dark: #191a19;
+  --moderate: #5c5d60;
+  --online: #95cd41;
+  --danger: #da1212;
+  --white: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  object-fit: cover;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
+}

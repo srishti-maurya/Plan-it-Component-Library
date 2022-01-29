@@ -36,6 +36,8 @@
   --info-variant: #679db9;
 }
 
+/* global selectors */
+
 a {
   text-decoration: none;
 }
@@ -47,6 +49,23 @@ img {
 span {
   margin-right: 0.4rem;
 }
+
+input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+}
+
+input:hover {
+  border: 1px solid var(--secondary);
+}
+
+input:focus {
+  border: 2px solid var(--secondary-dark-variant);
+}
+
+/* global classes */
 
 .container {
   display: flex;

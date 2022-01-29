@@ -222,3 +222,45 @@
   font-size: 1.3rem;
   padding: 1.2rem 1.3rem;
 }
+/* image */
+
+.img-container {
+  width: 500px;
+}
+
+.img-responsive {
+  max-inline-size: 100%;
+  aspect-ratio: 2/1;
+  object-position: top;
+}
+
+.img-round {
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+}
+
+/* input */
+
+.input-container {
+  width: 50%;
+  background-color: var(--light);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.input-text-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-error {
+  border: 1px solid var(--error);
+}
+
+.input-error:hover {
+  border: 1px solid var(--error-variant);
+}
+
+.text-error {
+  color: var(--error);
+}

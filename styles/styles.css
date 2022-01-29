@@ -52,18 +52,6 @@
   bottom: 15%;
 }
 
-.status-online {
-  background-color: var(--online);
-}
-
-.status-offline {
-  background-color: var(--moderate);
-}
-
-.status-dnd {
-  background-color: var(--danger);
-}
-
 .badge-icon {
   position: absolute;
   border-radius: 50%;
@@ -81,11 +69,156 @@
 }
 
 .badge-text {
-  color: var(--white);
   border-radius: 5px;
   padding: 0.2rem 0.5rem;
 }
 
 .badge-round-pill {
   border-radius: 20px;
+}
+
+/* alert */
+
+.alert {
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+/* button */
+
+.btn {
+  border: none;
+  padding: 0.7rem 1rem;
+  margin: 0.5rem;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.btn-link a {
+  color: var(--white);
+}
+
+.btn-text-primary {
+  background-color: var(--white);
+  color: var(--primary);
+}
+
+.btn-text-secondary {
+  background-color: var(--white);
+  color: var(--secondary-dark-variant);
+}
+
+.btn:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  background-color: var(--primary-dark-variant);
+}
+
+.btn-link a:hover {
+  color: var(--secondary);
+}
+
+.btn.info:hover {
+  background-color: var(--info-variant);
+}
+
+.btn.secondary:hover {
+  background-color: var(--secondary-dark-variant);
+}
+
+.btn.error:hover {
+  background-color: var(--error-variant);
+}
+
+.btn.success:hover {
+  background-color: var(--success-variant);
+}
+.btn.warning:hover {
+  background-color: var(--warning-variant);
+  color: var(--white);
+}
+
+.btn.light:hover {
+  background-color: var(--light-variant);
+}
+
+.btn.dark:hover {
+  background-color: var(--dark-variant);
+}
+
+.btn.outline:hover {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.btn.outline-info:hover {
+  background-color: var(--info);
+  color: var(--moderate);
+}
+
+.btn.outline-secondary:hover {
+  background-color: var(--secondary);
+  color: var(--moderate);
+}
+
+.btn.outline-error:hover {
+  background-color: var(--error);
+  color: var(--white);
+}
+
+.btn.outline-success:hover {
+  background-color: var(--success);
+  color: var(--white);
+}
+.btn.outline-warning:hover {
+  background-color: var(--warning);
+  color: var(--moderate);
+}
+
+.btn.outline-light:hover {
+  background-color: var(--light);
+  color: var(--moderate);
+}
+
+.btn.outline-dark:hover {
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+.btn.btn-text-primary:hover {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.btn.btn-text-secondary:hover {
+  background-color: var(--secondary);
+  color: var(--moderate);
+}
+
+.btn-float {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+}
+
+.btn-sm {
+  font-size: 0.6rem;
+  padding: 0.7rem 1rem;
+}
+
+.btn-md {
+  font-size: 1rem;
+  padding: 1rem 1.2rem;
+}
+
+.btn-lg {
+  font-size: 1.3rem;
+  padding: 1.2rem 1.3rem;
 }

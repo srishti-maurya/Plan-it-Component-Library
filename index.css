@@ -1,20 +1,39 @@
-/* * {
-  margin: 0;
-  padding: 0;
-} */
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
+
+/* reset css */
+
+* {
+  font-family: "Alice", serif;
+}
 
 /* colors */
 :root {
   --primary: #15325e;
+  --primary-dark-variant: #001945;
+  --primary-light-variant: #94b1dd;
+
   --secondary: #cbdc29;
+  --secondary-dark-variant: #98a900;
+  --secondary-light-variant: #ffffa8;
+
   --accent: #ec4e20;
   --background: #eee2df;
   --light: #cee5f2;
+  --light-variant: #9bb2bf;
   --dark: #191a19;
+  --dark-variant: #000100;
   --moderate: #5c5d60;
-  --online: #95cd41;
-  --danger: #da1212;
+  --moderate-variant: #292a2d;
+  --success: #95cd41;
+  --success-variant: #629a0e;
+  --error: #da1212;
+  --error-variant: #a70000;
   --white: #fff;
+  --warning: #ffc600;
+  --warning-variant: #cc9300;
+  --info: #9ad0ec;
+  --info-variant: #679db9;
 }
 
 a {
@@ -25,15 +44,104 @@ img {
   object-fit: cover;
 }
 
+span {
+  margin-right: 0.4rem;
+}
+
 .container {
   display: flex;
   align-items: center;
 }
 
-.bg-primary {
+.primary {
   background-color: var(--primary);
+  color: var(--white);
 }
 
-.bg-secondary {
+.secondary {
   background-color: var(--secondary);
+  color: var(--white);
+}
+
+.success {
+  background-color: var(--success);
+  color: var(--white);
+}
+
+.offline {
+  background-color: var(--moderate);
+  color: var(--white);
+}
+
+.error {
+  background-color: var(--error);
+  color: var(--white);
+}
+
+.warning {
+  background-color: var(--warning);
+  color: var(--moderate);
+}
+
+.info {
+  background-color: var(--info);
+  color: var(--moderate);
+}
+
+.light {
+  background-color: var(--light);
+  color: var(--moderate);
+}
+
+.dark {
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+.outline {
+  background-color: var(--white);
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.outline-success {
+  background-color: var(--white);
+  color: var(--success);
+  border: 1px solid var(--success);
+}
+
+.outline-error {
+  background-color: var(--white);
+  color: var(--error);
+  border: 1px solid var(--error);
+}
+
+.outline-warning {
+  background-color: var(--white);
+  color: var(--warning);
+  border: 1px solid var(--warning);
+}
+
+.outline-info {
+  background-color: var(--white);
+  color: var(--info);
+  border: 1px solid var(--info);
+}
+
+.outline-secondary {
+  background-color: var(--white);
+  color: var(--secondary);
+  border: 1px solid var(--secondary);
+}
+
+.outline-light {
+  background-color: var(--white);
+  color: var(--light);
+  border: 1px solid var(--light);
+}
+
+.outline-dark {
+  background-color: var(--white);
+  color: var(--dark);
+  border: 1px solid var(--dark);
 }

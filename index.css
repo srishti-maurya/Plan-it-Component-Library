@@ -30,11 +30,14 @@
   --error: #da1212;
   --error-variant: #a70000;
   --white: #fff;
+  --white-variant: #f9fcfb;
   --warning: #ffc600;
   --warning-variant: #cc9300;
   --info: #9ad0ec;
   --info-variant: #679db9;
 }
+
+/* global selectors */
 
 a {
   text-decoration: none;
@@ -47,6 +50,23 @@ img {
 span {
   margin-right: 0.4rem;
 }
+
+input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+}
+
+input:hover {
+  border: 1px solid var(--secondary);
+}
+
+input:focus {
+  border: 2px solid var(--secondary-dark-variant);
+}
+
+/* global classes */
 
 .container {
   display: flex;
@@ -130,7 +150,7 @@ span {
 
 .outline-secondary {
   background-color: var(--white);
-  color: var(--secondary);
+  color: var(--secondary-dark-variant);
   border: 1px solid var(--secondary);
 }
 
@@ -144,4 +164,45 @@ span {
   background-color: var(--white);
   color: var(--dark);
   border: 1px solid var(--dark);
+}
+
+
+/* typography */
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.text-xl {
+  font-size: 1.2rem;
+  line-height: 1.75rem;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }

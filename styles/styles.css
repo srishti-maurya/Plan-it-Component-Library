@@ -222,3 +222,154 @@
   font-size: 1.3rem;
   padding: 1.2rem 1.3rem;
 }
+/* image */
+
+.img-container {
+  width: 500px;
+}
+
+.img-responsive {
+  max-inline-size: 100%;
+  object-position: top;
+}
+
+.img-round {
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+}
+
+/* input */
+
+.input-container {
+  width: 50%;
+  background-color: var(--light);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.input-text-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-error {
+  border: 1px solid var(--error);
+}
+
+.input-error:hover {
+  border: 1px solid var(--error-variant);
+}
+
+.input-error:focus {
+  border: 1px solid var(--error-variant);
+}
+
+.text-error {
+  color: var(--error);
+}
+
+/* card components */
+
+.card-container-vertical {
+  width: 250px;
+  position: relative;
+  background-color: var(--white-variant);
+  border: 2px solid var(--background);
+  margin: 1rem;
+}
+
+.card-container-horizontal {
+  height: 250px;
+  position: relative;
+  background-color: var(--white-variant);
+  border: 2px solid var(--background);
+  margin: 1rem;
+  display: flex;
+}
+
+.card-horizontal-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0.7rem;
+}
+
+.card-container-vertical:hover {
+  border: 2px solid var(--secondary);
+}
+
+.card-container-horizontal:hover {
+  border: 2px solid var(--secondary);
+}
+
+.card-badge {
+  position: absolute;
+  left: -0.2rem;
+  top: 1rem;
+}
+
+.card-icon {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  cursor: pointer;
+}
+
+.card-icon:hover {
+  color: var(--secondary-dark-variant);
+}
+
+.card-body {
+  padding: 0.7rem;
+}
+
+.card-price {
+  padding: 0.4rem 0;
+}
+
+.price-before {
+  text-decoration: line-through;
+}
+
+.discount {
+  color: var(--error);
+}
+
+.card-shadow {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.card-text {
+  background-color: var(--white-variant);
+  border: 2px solid var(--background);
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 400px;
+}
+
+.card-text:hover {
+  border: 2px solid var(--secondary);
+}
+
+.card-overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--background);
+  opacity: 60%;
+}
+
+.card-overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: var(--primary-dark-variant);
+  background-color: var(--white-variant);
+  padding: 1rem;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}

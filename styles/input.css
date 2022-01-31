@@ -1,0 +1,23 @@
+.input-container {
+  width: 50%;
+  background-color: var(--light);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.input-text-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-error {
+  border: 1px solid var(--error);
+}
+
+.input-error:hover {
+  border: 1px solid var(--error-variant);
+}
+
+.input-error:focus {
+  border: 1px solid var(--error-variant);
+}

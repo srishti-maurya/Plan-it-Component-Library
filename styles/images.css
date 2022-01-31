@@ -1,0 +1,13 @@
+.img-container {
+  width: 500px;
+}
+
+.img-responsive {
+  max-inline-size: 100%;
+  object-position: top;
+}
+
+.img-round {
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+}

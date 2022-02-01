@@ -170,6 +170,10 @@
   color: var(--primary);
 }
 
+.text-primary-variant {
+  color: var(--primary-dark-variant);
+}
+
 .text-secondary {
   color: var(--secondary-dark-variant);
 }
@@ -181,6 +185,14 @@
 }
 
 /* padding */
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
 
 .p-5px {
   padding: 5px;

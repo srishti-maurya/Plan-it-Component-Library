@@ -9,8 +9,12 @@
   color: var(--white);
 }
 
-.btn-link a {
+.btn-link-light a {
   color: var(--white);
+}
+
+.btn-link-dark a {
+  color: var(--dark);
 }
 
 .btn-text-primary {
@@ -27,10 +31,6 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   background-color: var(--primary-dark-variant);
-}
-
-.btn-link a:hover {
-  color: var(--secondary);
 }
 
 .btn.info:hover {

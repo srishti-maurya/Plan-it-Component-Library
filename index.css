@@ -23,6 +23,7 @@
 .nav-links li {
   padding-right: 1rem;
   font-weight: bold;
+  font-size: 1rem;
 }
 
 .nav-links li a {
@@ -62,4 +63,18 @@
   align-items: center;
   background-color: var(--primary);
   color: var(--white);
+}
+
+/* code-snippets */
+.code-snippets {
+  width: 800px;
+  height: 100px;
+  border: 1px solid var(--secondary-dark-variant);
+}
+
+.code-snippets-installation {
+  width: 710px;
+  height: 100px;
+  border: 1px solid var(--secondary-dark-variant);
+  border-radius: 5px;
 }

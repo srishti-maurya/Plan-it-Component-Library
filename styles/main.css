@@ -1,0 +1,71 @@
+/* google fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
+
+/* stylesheets */
+
+@import url(./alert.css);
+@import url(./avatar.css);
+@import url(./badge.css);
+@import url(./card.css);
+@import url(./images.css);
+@import url(./input.css);
+@import url(./button.css);
+@import url(./utils.css);
+/* reset css */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Alice", serif;
+}
+
+/* global selectors */
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  object-fit: cover;
+}
+
+span {
+  margin-right: 0.4rem;
+}
+
+input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+}
+
+input:hover {
+  border: 1px solid var(--secondary);
+}
+
+input:focus {
+  border: 2px solid var(--secondary-dark-variant);
+}
+
+i {
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* global classes */
+
+.container {
+  display: flex;
+  align-items: center;
+}

@@ -5,17 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Plan it, Use it</title>
+    <link rel="stylesheet" href="./styles/main.css" />
     <link rel="stylesheet" href="index.css" />
+    <!-- font awesome icons-->
+    <script
+      src="https://kit.fontawesome.com/692dfd03ca.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <h1>Plan it, Use it- component library</h1>
-    <h2>Components</h2>
-    <div>1. <a href="./components/avatar.html">Avatar</a></div>
-    <div>2. <a href="./components/badge.html">Badge</a></div>
-    <div>3. <a href="./components/alert.html">Alert</a></div>
-    <div>4. <a href="./components/button.html">Button</a></div>
-    <div>5. <a href="./components/images.html">Images</a></div>
-    <div>6. <a href="./components/input.html">Input</a></div>
-    <div>7. <a href="./components/card.html">Card</a></div>
+    <!-- navigation -->
+    <nav class="nav">
+      <ul class="nav-links">
+        <li>
+          <a href="index.html">
+            <img src="./images/logo.png" alt="logo" class="nav-logo"
+          /></a>
+        </li>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="./documentation.html">Documentation</a>
+        </li>
+      </ul>
+      <ul class="social-media-links">
+        <li><i class="fab fa-github"></i></li>
+        <li><i class="fab fa-twitter"></i></li>
+        <li><i class="fab fa-linkedin-in"></i></li>
+      </ul>
+    </nav>
+    <!-- hero section -->
+    <section class="hero-container">
+      <h1 class="text-5xl pb-2 text-primary">
+        Planning to build an UI project?
+      </h1>
+      <p class="text-2xl text-secondary">Here is your solution!</p>
+      <p class="text-xl text-secondary">Step 1 → plan it</p>
+      <p class="text-xl text-secondary pb-2">Step 2 → use it</p>
+      <p class="text-2xl text-primary pb-2">
+        A CSS library, integrated with pre-defined styled classes, and Utilites.
+        Helping you to focus more on logic/ functionality. Copy and paste the
+        components at one click.
+      </p>
+      <button class="btn btn-link-light">
+        <a href="./documentation.html">Documentation</a>
+      </button>
+      <button class="btn outline-secondary btn-link-dark">
+        <a href="#installation">Installation</a>
+      </button>
+    </section>
+    <!-- installation section -->
+    <section class="p-5 installation-container container" id="installation">
+      <div>
+        <h2 class="text-4xl text-primary pb-2">Installation</h2>
+        <p class="text-xl text-secondary">
+          Looking to quickly add <strong> Plan it, Use it</strong> to your
+          project?
+        </p>
+        <p class="text-xl text-primary pb-2">
+          Copy the link and paste it in the head tag of your html, above all
+          other style sheets. i.e. import the stylesheet in your html file.
+        </p>
+        <code>
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28238%2C226%2C223%2C1%29&t=one-light&wt=sharp&l=auto&width=958&ds=false&dsyoff=3px&dsblur=13px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=172%25&si=false&es=4x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fplanit-useit.netlify.app%252Fstyles%252Fmain.css%2522%253E"
+            sandbox="allow-scripts allow-same-origin"
+            class="code-snippets-installation"
+          >
+          </iframe>
+        </code>
+        <div>
+          <button class="btn btn-link-light">
+            <a href="./documentation.html">Documentation</a>
+          </button>
+        </div>
+      </div>
+      <img src="./images/logo.png" alt="logo" />
+    </section>
+    <footer class="p-5px footer">
+      <p class="text-xs pb-5px">Made with ❤️ by Srishti Maurya &copy 2022</p>
+      <ul class="social-media-links">
+        <li><i class="fab fa-github"></i></li>
+        <li><i class="fab fa-twitter"></i></li>
+        <li><i class="fab fa-linkedin-in"></i></li>
+      </ul>
+    </footer>
   </body>
 </html>

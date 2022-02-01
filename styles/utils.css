@@ -2,6 +2,7 @@
 
 :root {
   --primary: #15325e;
+  /* --primary1: #93c47d; */
   --primary-dark-variant: #001945;
   --primary-light-variant: #94b1dd;
   --secondary: #cbdc29;
@@ -160,6 +161,51 @@
   line-height: 1;
 }
 
+/* line-heights */
+
+.leading-3 {
+  line-height: 0.75rem;
+}
+.leading-4 {
+  line-height: 1rem;
+}
+.leading-5 {
+  line-height: 1.25rem;
+}
+.leading-6 {
+  line-height: 1.5rem;
+}
+.leading-7 {
+  line-height: 1.75rem;
+}
+.leading-8 {
+  line-height: 2rem;
+}
+.leading-9 {
+  line-height: 2.25rem;
+}
+.leading-10 {
+  line-height: 2.5rem;
+}
+.leading-none {
+  line-height: 1;
+}
+.leading-tight {
+  line-height: 1.25;
+}
+.leading-snug {
+  line-height: 1.375;
+}
+.leading-normal {
+  line-height: 1.5;
+}
+.leading-relaxed {
+  line-height: 1.625;
+}
+.leading-loose {
+  line-height: 2;
+}
+
 /* text color */
 
 .text-error {
@@ -196,6 +242,10 @@
 
 .p-5px {
   padding: 5px;
+}
+
+.p-1 {
+  padding: 1rem;
 }
 
 .p-5 {

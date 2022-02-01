@@ -6,85 +6,205 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Plan it, Use it | Badge</title>
     <link rel="stylesheet" href="../styles/main.css" />
-  </head>
-  <body>
-    <h1>Badge component</h1>
-    <hr />
-    <h2>Status Badge</h2>
-    <div class="container">
-      <div class="badge-container">
-        <img
-          src="../images/profile-1.png"
-          alt="profile-photo"
-          class="avatar avatar-sm"
-        />
-        <div class="badge success"></div>
-      </div>
-      <div class="badge-container">
-        <img src="../images/profile-2.png" alt="profile-photo" class="avatar" />
-        <div class="badge success"></div>
-      </div>
-      <div class="badge-container">
-        <img
-          src="../images/profile-3.png"
-          alt="profile-photo"
-          class="avatar avatar-md"
-        />
-        <div class="badge offline"></div>
-      </div>
-      <div class="badge-container">
-        <img
-          src="../images/profile-4.png"
-          alt="profile-photo"
-          class="avatar avatar-lg"
-        />
-        <div class="badge error"></div>
-      </div>
-    </div>
-    <hr />
-    <h2>Icon Badge</h2>
-    <div class="container">
-      <div class="badge-container">
-        <div><i class="fas fa-folder fa-3x"></i></div>
-        <div class="badge-icon success">6</div>
-      </div>
-
-      <div class="badge-container">
-        <div><i class="fas fa-bell fa-2x"></i></div>
-        <div class="badge-icon offline">18</div>
-      </div>
-
-      <div class="badge-container">
-        <div><i class="fas fa-home fa-2x"></i></div>
-        <div class="badge-icon error">99+</div>
-      </div>
-
-      <div class="badge-container">
-        <div><i class="fas fa-home fa-3x"></i></div>
-        <div class="badge-icon success">522</div>
-      </div>
-    </div>
-    <hr />
-    <h2>Text Badge</h2>
-
-    <h2>
-      Example of Heading with Badge
-      <span class="badge-text primary">New</span>
-    </h2>
-
-    <h3>
-      Example of Heading with Badge
-      <span class="badge-text secondary badge-round-pill">New</span>
-    </h3>
-
-    <p>
-      Example of paragraph with Badge
-      <span class="badge-text secondary">New</span>
-    </p>
-    <!-- font awesome icons -->
+    <!-- font awesome icons-->
     <script
       src="https://kit.fontawesome.com/692dfd03ca.js"
       crossorigin="anonymous"
     ></script>
+  </head>
+  <body>
+    <!-- navigation -->
+    <nav class="nav">
+      <ul class="nav-links">
+        <li>
+          <a href="../index.html">
+            <img src="../images/logo.png" alt="logo" class="nav-logo"
+          /></a>
+        </li>
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+          <a href="../documentation.html">Documentation</a>
+        </li>
+      </ul>
+      <ul class="social-media-links">
+        <li><i class="fab fa-github"></i></li>
+        <li><i class="fab fa-twitter"></i></li>
+        <li><i class="fab fa-linkedin-in"></i></li>
+      </ul>
+    </nav>
+    <!-- section -->
+    <main class="docs-container">
+      <aside class="docs-aside">
+        <h2 class="text-xl text-primary-variant">Get started</h2>
+        <div class="horizontal-div"></div>
+        <div class="docs-sub-container">
+          <a href="#" class="docs-link text-base">Introduction</a>
+          <a href="#" class="docs-link">Colors</a>
+          <a href="#" class="docs-link">Typography</a>
+          <a href="#" class="docs-link">Conclusion</a>
+        </div>
+        <h2 class="text-xl text-primary-variant">Components</h2>
+        <div class="horizontal-div"></div>
+        <div class="docs-sub-container">
+          <a href="./avatar.html" class="docs-link">Avatar</a>
+          <a href="./alert.html" class="docs-link">Alert</a>
+          <a href="./badge.html" class="docs-link active-link">Badge</a>
+          <a href="./button.html" class="docs-link">Button</a>
+          <a href="./card.html" class="docs-link">Card</a>
+          <a href="./images.html" class="docs-link">Image</a>
+          <a href="./input.html" class="docs-link">Input</a>
+        </div>
+      </aside>
+      <section class="components">
+        <h1 class="text-5xl py-2 text-primary-variant">Badge component</h1>
+        <p class="pb-2">
+          Badges are used to highlight an item's status for quick recognition.
+        </p>
+        <div class="horizontal-div"></div>
+        <h2 class="py-1">Status Badge</h2>
+        <p class="pb-2">
+          To use status badge add class name
+          <span class="text-secondary">badge</span>to a div tag which is inside
+          a div with a class name
+          <span class="text-secondary">badge-container</span>along with an
+          avatar component. For different status add class name accordingly
+          <span class="text-secondary">success, offline, error.</span>
+        </p>
+
+        <div class="container component-example">
+          <div class="badge-container">
+            <img
+              src="../images/profile-1.png"
+              alt="profile-photo"
+              class="avatar avatar-sm"
+            />
+            <div class="badge success"></div>
+          </div>
+          <div class="badge-container">
+            <img
+              src="../images/profile-2.png"
+              alt="profile-photo"
+              class="avatar"
+            />
+            <div class="badge success"></div>
+          </div>
+          <div class="badge-container">
+            <img
+              src="../images/profile-3.png"
+              alt="profile-photo"
+              class="avatar avatar-md"
+            />
+            <div class="badge offline"></div>
+          </div>
+          <div class="badge-container">
+            <img
+              src="../images/profile-4.png"
+              alt="profile-photo"
+              class="avatar avatar-lg"
+            />
+            <div class="badge error"></div>
+          </div>
+        </div>
+        <div class="code-snippet-display">
+          <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fprofile-1.png%2522%2520alt%253D%2522profile-photo%2522%2520class%253D%2522avatar%2520avatar-sm%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520success%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fprofile-2.png%2522%2520alt%253D%2522profile-photo%2522%2520class%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520success%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fprofile-3.png%2522%2520alt%253D%2522profile-photo%2522%2520class%253D%2522avatar%2520avatar-md%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520offline%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fprofile-4.png%2522%2520alt%253D%2522profile-photo%2522%2520class%253D%2522avatar%2520avatar-lg%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520error%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              class="code-snippets"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+        </div>
+        <div class="horizontal-div"></div>
+        <h2 class="py-1">Icon Badge</h2>
+        <p class="pb-2">
+          To use icon badge add class name
+          <span class="text-secondary">badge-icon</span>to a div tag which is
+          inside a div with a class name
+          <span class="text-secondary">badge-container</span> along with an
+          icon. For different status add class names accordingly
+          <span class="text-secondary">success, offline, error.</span>
+        </p>
+
+        <div class="container component-example">
+          <div class="badge-container">
+            <div><i class="fas fa-folder fa-3x"></i></div>
+            <div class="badge-icon success">6</div>
+          </div>
+
+          <div class="badge-container">
+            <div><i class="fas fa-bell fa-2x"></i></div>
+            <div class="badge-icon offline">18</div>
+          </div>
+
+          <div class="badge-container">
+            <div><i class="fas fa-home fa-2x"></i></div>
+            <div class="badge-icon error">99+</div>
+          </div>
+
+          <div class="badge-container">
+            <div><i class="fas fa-home fa-3x"></i></div>
+            <div class="badge-icon success">522</div>
+          </div>
+        </div>
+        <div class="code-snippet-display">
+          <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Ci%2520class%253D%2522fas%2520fa-folder%2520fa-3x%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon%2520success%2522%253E6%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Ci%2520class%253D%2522fas%2520fa-bell%2520fa-2x%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon%2520offline%2522%253E18%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Ci%2520class%253D%2522fas%2520fa-home%2520fa-2x%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon%2520error%2522%253E99%252B%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Ci%2520class%253D%2522fas%2520fa-home%2520fa-3x%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon%2520success%2522%253E522%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              class="code-snippets"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+        </div>
+        <div class="horizontal-div"></div>
+
+        <h2 class="py-1">Text Badge</h2>
+        <p class="pb-2">
+          To use text badge add class name
+          <span class="text-secondary">badge-text</span> use class name
+          <span class="text-secondary">badge-round-pill</span>for rounded pill
+          badge.
+        </p>
+
+        <div class="component-example">
+          <h2 class="p-1">
+            Example of Heading with Badge
+            <span class="badge-text primary">New</span>
+          </h2>
+
+          <h3 class="p-1">
+            Example of Heading with Badge
+            <span class="badge-text secondary badge-round-pill">New</span>
+          </h3>
+
+          <p class="p-1">
+            Example of paragraph with Badge
+            <span class="badge-text secondary">New</span>
+          </p>
+        </div>
+        <div class="code-snippet-display">
+          <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Ch2%253EExample%2520of%2520Heading%2520with%2520Badge%2520%253Cspan%2520class%253D%2522badge-text%2520primary%2522%253ENew%253C%252Fspan%253E%253C%252Fh2%253E%250A%2509%253Ch3%253EExample%2520of%2520Heading%2520with%2520Badge%2520%253Cspan%2520class%253D%2522badge-text%2520secondary%2520badge-round-pill%2522%253ENew%253C%252Fspan%253E%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cp%253EExample%2520of%2520paragraph%2520with%2520Badge%2520%253Cspan%2520class%253D%2522badge-text%2520secondary%2522%253ENew%253C%252Fspan%253E%253C%252Fp%253E"
+              class="code-snippets"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="p-5px footer">
+      <p class="text-xs pb-5px">Made with ❤️ by Srishti Maurya &copy 2022</p>
+      <ul class="social-media-links">
+        <li><i class="fab fa-github"></i></li>
+        <li><i class="fab fa-twitter"></i></li>
+        <li><i class="fab fa-linkedin-in"></i></li>
+      </ul>
+    </footer>
   </body>
 </html>

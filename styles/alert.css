@@ -3,4 +3,6 @@
   margin: 1rem;
   border-radius: 5px;
   display: flex;
+  background-color: var(--info);
+  color: var(--moderate);
 }

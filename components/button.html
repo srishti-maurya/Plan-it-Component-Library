@@ -6,106 +6,300 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Plan it, Use it | Button</title>
     <link rel="stylesheet" href="../styles/main.css" />
-  </head>
-  <body>
-    <h1>Button component</h1>
-    <hr />
-    <h2>Contained button</h2>
-    <div class="container">
-      <button class="btn">default</button>
-      <button class="btn info">primary</button>
-      <button class="btn secondary">secondary</button>
-      <button class="btn error">error</button>
-      <button class="btn success">success</button>
-      <button class="btn light">light</button>
-      <button class="btn dark">dark</button>
-    </div>
-    <h2>Outline button</h2>
-    <div class="container">
-      <button class="btn outline">default</button>
-      <button class="btn outline-info">primary</button>
-      <button class="btn outline-secondary">secondary</button>
-      <button class="btn outline-error">error</button>
-      <button class="btn outline-success">success</button>
-      <button class="btn outline-light">light</button>
-      <button class="btn outline-dark">dark</button>
-    </div>
-    <h2>Link button</h2>
-    <div class="container">
-      <button class="btn btn-link-light">
-        <a href="#">link</a>
-      </button>
-      <button class="btn btn-link-dark info">
-        <a href="#">link</a>
-      </button>
-    </div>
-    <h2>Text button</h2>
-    <div class="container">
-      <button class="btn btn-text-primary">primary</button>
-      <button class="btn btn-text-secondary">secondary</button>
-    </div>
-    <h2>Icon button</h2>
-    <div class="container">
-      <button class="btn">
-        <span><i class="fas fa-save"></i></span>save
-      </button>
-      <button class="btn secondary">
-        <span><i class="fas fa-share"></i></span>share
-      </button>
-      <button class="btn outline-warning">
-        <span><i class="fas fa-shopping-cart"></i></span>add to cart
-      </button>
-      <button class="btn outline-error">
-        <span><i class="fas fa-trash-alt"></i></span>delete
-      </button>
-
-      <button class="btn info">
-        <i class="fas fa-save"></i>
-      </button>
-      <button class="btn light">
-        <i class="fas fa-share"></i>
-      </button>
-      <button class="btn outline-dark">
-        <i class="fas fa-shopping-cart"></i>
-      </button>
-      <button class="btn outline-error">
-        <i class="fas fa-trash-alt"></i>
-      </button>
-    </div>
-    <h2>Floating Action Button</h2>
-    <div class="container">
-      <div class="badge-container">
-        <button class="btn outline btn-float">
-          <i class="fas fa-search"></i>
-        </button>
-      </div>
-      <div class="badge-container">
-        <button class="btn warning btn-float">
-          <i class="fas fa-plus"></i>
-        </button>
-      </div>
-      <div class="badge-container">
-        <button class="btn outline-secondary btn-float">
-          <i class="fas fa-arrow-up"></i>
-        </button>
-      </div>
-      <div class="badge-container">
-        <button class="btn secondary btn-float">
-          <i class="fas fa-arrow-down"></i>
-        </button>
-      </div>
-    </div>
-    <h2>Different Button Sizes</h2>
-    <div class="container">
-      <button class="btn btn-sm">primary</button>
-      <button class="btn">primary</button>
-      <button class="btn btn-md">primary</button>
-      <button class="btn btn-lg">primary</button>
-    </div>
     <!-- font awesome icons-->
     <script
       src="https://kit.fontawesome.com/692dfd03ca.js"
       crossorigin="anonymous"
     ></script>
+  </head>
+  <body>
+    <!-- navigation -->
+    <nav class="nav">
+      <ul class="nav-links">
+        <li>
+          <a href="../index.html">
+            <img src="../images/logo.png" alt="logo" class="nav-logo"
+          /></a>
+        </li>
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+          <a href="../documentation.html">Documentation</a>
+        </li>
+      </ul>
+      <ul class="social-media-links">
+        <li><i class="fab fa-github"></i></li>
+        <li><i class="fab fa-twitter"></i></li>
+        <li><i class="fab fa-linkedin-in"></i></li>
+      </ul>
+    </nav>
+    <!-- section -->
+    <main class="docs-container">
+      <aside class="docs-aside">
+        <h2 class="text-xl text-primary-variant">Get started</h2>
+        <div class="horizontal-div"></div>
+        <div class="docs-sub-container">
+          <a href="#" class="docs-link text-base">Introduction</a>
+          <a href="#" class="docs-link">Colors</a>
+          <a href="#" class="docs-link">Typography</a>
+          <a href="#" class="docs-link">Conclusion</a>
+        </div>
+        <h2 class="text-xl text-primary-variant">Components</h2>
+        <div class="horizontal-div"></div>
+        <div class="docs-sub-container">
+          <a href="./avatar.html" class="docs-link">Avatar</a>
+          <a href="./alert.html" class="docs-link">Alert</a>
+          <a href="./badge.html" class="docs-link">Badge</a>
+          <a href="./button.html" class="docs-link active-link">Button</a>
+          <a href="./card.html" class="docs-link">Card</a>
+          <a href="./images.html" class="docs-link">Image</a>
+          <a href="./input.html" class="docs-link">Input</a>
+        </div>
+      </aside>
+      <section class="components">
+        <h1 class="text-5xl py-2 text-primary-variant">Button component</h1>
+        <p class="pb-2">
+          The Button component is used to trigger an action or event, such as
+          submitting a form, opening a dialog, canceling an action, or
+          performing a delete operation.
+        </p>
+        <div class="horizontal-div"></div>
+        <h2 class="py-1">Contained Button</h2>
+        <p class="pb-2">
+          The use of elevation and fill classifies contained buttons as
+          high-emphasis. They contain the essential actions in your project. To
+          use button component add class name
+          <span class="text-secondary">btn</span>to button tag. For different
+          colors use class names
+          <span class="text-secondary"
+            >info, secondary, error, success, light, dark</span
+          >accordingly. If color is not provided default color would be used.
+        </p>
+
+        <div class="container component-example">
+          <button class="btn">default</button>
+          <button class="btn info">primary</button>
+          <button class="btn secondary">secondary</button>
+          <button class="btn error">error</button>
+          <button class="btn success">success</button>
+          <button class="btn light">light</button>
+          <button class="btn dark">dark</button>
+        </div>
+        <div class="code-snippet-display">
+          <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253Edefault%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520info%2522%253Eprimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520secondary%2522%253Esecondary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520error%2522%253Eerror%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520success%2522%253Esuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520light%2522%253Elight%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520dark%2522%253Edark%253C%252Fbutton%253E"
+              class="code-snippets"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+        </div>
+        <div class="horizontal-div"></div>
+        <h2 class="py-1">Outline Button</h2>
+        <p class="pb-2">
+          These buttons give you an option to opt out for the massive and
+          weightly features, and be simple To use outline button component add
+          class name
+          <span class="text-secondary">btn, outline</span>to button tag. For
+          different colors use class names
+          <span class="text-secondary"
+            >outline-info, outline-secondary, outline-error, outline-success,
+            outline-light, outline-dark</span
+          >accordingly. If color is not provided default color would be used.
+        </p>
+
+        <div class="container component-example">
+          <button class="btn outline">default</button>
+          <button class="btn outline-info">primary</button>
+          <button class="btn outline-secondary">secondary</button>
+          <button class="btn outline-error">error</button>
+          <button class="btn outline-success">success</button>
+          <button class="btn outline-light">light</button>
+          <button class="btn outline-dark">dark</button>
+        </div>
+        <div class="code-snippet-display">
+          <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline%2522%253Edefault%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-info%2522%253Eprimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-secondary%2522%253Esecondary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-error%2522%253Eerror%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-success%2522%253Esuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-light%2522%253Elight%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-dark%2522%253Edark%253C%252Fbutton%253E"
+              class="code-snippets"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+        </div>
+        <div class="horizontal-div"></div>
+
+        <h2 class="py-1">Link button</h2>
+        <p class="pb-2">
+          Do you want to add a link action to a button click? Here it is! To use
+          link button add class name
+          <span class="text-secondary">btn-link-light, btn-link-dark</span>
+        </p>
+
+        <div class="container component-example">
+          <button class="btn btn-link-light">
+            <a href="#">link</a>
+          </button>
+          <button class="btn btn-link-dark info">
+            <a href="#">link</a>
+          </button>
+        </div>
+        <div class="code-snippet-display">
+          <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cbutton%2520class%253D%2522btn%2520btn-link-light%2522%253E%253Ca%2520href%253D%2522%2523%2522%253Elink%253C%252Fa%253E%253C%252Fbutton%253E%250A%2509%253Cbutton%2520class%253D%2522btn%2520btn-link-dark%2520info%2522%253E%253Ca%2520href%253D%2522%2523%2522%253Elink%253C%252Fa%253E%253C%252Fbutton%253E"
+              class="code-snippets"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+        </div>
+        <div class="horizontal-div"></div>
+
+        <h2 class="py-1">Text button</h2>
+        <p class="pb-2">
+          To use text button add class name
+          <span class="text-secondary"
+            >btn-text-primary, btn-text-secondary</span
+          >
+        </p>
+
+        <div class="container component-example">
+          <button class="btn btn-text-primary">primary</button>
+          <button class="btn btn-text-secondary">secondary</button>
+        </div>
+        <div class="code-snippet-display">
+          <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-text-primary%2522%253Eprimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-text-secondary%2522%253Esecondary%253C%252Fbutton%253E"
+              class="code-snippets"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+        </div>
+        <div class="horizontal-div"></div>
+
+        <h2 class="py-1">Icon button</h2>
+        <p class="pb-2">
+          To use icon button add the icon in span tag inside the button with the
+          required variant class name
+        </p>
+
+        <div class="container component-example">
+          <button class="btn">
+            <span><i class="fas fa-save"></i></span>save
+          </button>
+          <button class="btn secondary">
+            <span><i class="fas fa-share"></i></span>share
+          </button>
+          <button class="btn outline-warning">
+            <span><i class="fas fa-shopping-cart"></i></span>add to cart
+          </button>
+          <button class="btn outline-error">
+            <span><i class="fas fa-trash-alt"></i></span>delete
+          </button>
+
+          <button class="btn info">
+            <i class="fas fa-save"></i>
+          </button>
+          <button class="btn light">
+            <i class="fas fa-share"></i>
+          </button>
+          <button class="btn outline-dark">
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+          <button class="btn outline-error">
+            <i class="fas fa-trash-alt"></i>
+          </button>
+        </div>
+        <div class="code-snippet-display">
+          <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-save%2522%253E%253C%252Fi%253E%253C%252Fspan%253Esave%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520secondary%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-share%2522%253E%253C%252Fi%253E%253C%252Fspan%253Eshare%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520outline-warning%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253Eadd%2520to%2520cart%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520outline-error%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-trash-alt%2522%253E%253C%252Fi%253E%253C%252Fspan%253Edelete%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520info%2522%253E%253Ci%2520class%253D%2522fas%2520fa-save%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520light%2522%253E%253Ci%2520class%253D%2522fas%2520fa-share%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520outline-dark%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520outline-error%2522%253E%253Ci%2520class%253D%2522fas%2520fa-trash-alt%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E"
+              class="code-snippets"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+        </div>
+        <div class="horizontal-div"></div>
+
+        <h2 class="py-1">Floating Action Button</h2>
+        <p class="pb-2">
+          To use floating action button wrap the button inside the
+          <span class="text-secondary">badge-container</span>class name
+        </p>
+
+        <div class="container component-example">
+          <div class="badge-container">
+            <button class="btn outline btn-float">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+          <div class="badge-container">
+            <button class="btn warning btn-float">
+              <i class="fas fa-plus"></i>
+            </button>
+          </div>
+          <div class="badge-container">
+            <button class="btn outline-secondary btn-float">
+              <i class="fas fa-arrow-up"></i>
+            </button>
+          </div>
+          <div class="badge-container">
+            <button class="btn secondary btn-float">
+              <i class="fas fa-arrow-down"></i>
+            </button>
+          </div>
+        </div>
+        <div class="code-snippet-display">
+          <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%253Cbutton%2520class%253D%2522btn%2520outline%2520btn-float%2522%253E%253Ci%2520class%253D%2522fas%2520fa-search%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%253Cbutton%2520class%253D%2522btn%2520warning%2520btn-float%2522%253E%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-secondary%2520btn-float%2522%253E%253Ci%2520class%253D%2522fas%2520fa-arrow-up%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%253Cbutton%2520class%253D%2522btn%2520secondary%2520btn-float%2522%253E%253Ci%2520class%253D%2522fas%2520fa-arrow-down%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%253C%252Fdiv%253E"
+              class="code-snippets"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+        </div>
+        <div class="horizontal-div"></div>
+
+        <h2 class="py-1">Different Button Sizes</h2>
+        <p class="pb-2">
+          To use different sizes button add class name
+          <span class="text-secondary">btn-sm, btn-md, btn-lg</span>accordingly.
+          If size is not provided default size would be used.
+        </p>
+
+        <div class="container component-example">
+          <button class="btn outline btn-sm">small</button>
+          <button class="btn outline">default</button>
+          <button class="btn outline btn-md">medium</button>
+          <button class="btn outline btn-lg">large</button>
+        </div>
+        <div class="code-snippet-display">
+          <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cbutton%2520class%253D%2522btn%2520outline%2520btn-sm%2522%253Esmall%253C%252Fbutton%253E%250A%2509%253Cbutton%2520class%253D%2522btn%2520outline%2522%253Edefault%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline%2520btn-md%2522%253Emedium%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline%2520btn-lg%2522%253Elarge%253C%252Fbutton%253E"
+              class="code-snippets"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="p-5px footer">
+      <p class="text-xs pb-5px">Made with ❤️ by Srishti Maurya &copy 2022</p>
+      <ul class="social-media-links">
+        <li><i class="fab fa-github"></i></li>
+        <li><i class="fab fa-twitter"></i></li>
+        <li><i class="fab fa-linkedin-in"></i></li>
+      </ul>
+    </footer>
   </body>
 </html>

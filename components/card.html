@@ -1,306 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Plan it, Use it | Card</title>
-    <link rel="stylesheet" href="../styles/main.css" />
-  </head>
-  <body>
-    <h1>Card components</h1>
-    <h2>vertical cards</h2>
-    <div class="container">
-      <div class="card-container-vertical">
-        <div class="badge-text primary card-badge">New</div>
-        <div class="card-icon"><i class="fas fa-heart fa"></i></div>
-        <img
-          src="https://images.unsplash.com/photo-1594171334348-47faf56d8501?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
-          alt="card-img"
-          class="img-responsive"
-        />
-        <div class="card-body">
-          <div>Notebook</div>
-          <div class="text-2xl">Single ruled - Office Notebook</div>
-          <div class="card-price">
-            <span class="text-xl"> Rs. 490 </span>
-            <span class="price-before"> Rs. 1299 </span>
-            <span class="discount"> (62% OFF) </span>
-          </div>
 
-          <button class="btn">
-            <span><i class="fas fa-shopping-cart"></i></span>add to cart
-          </button>
-        </div>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plan it, Use it | Card</title>
+  <link rel="stylesheet" href="../styles/main.css" />
+  <!-- font awesome icons-->
+  <script src="https://kit.fontawesome.com/692dfd03ca.js" crossorigin="anonymous"></script>
+</head>
 
-      <div class="card-container-vertical">
-        <div class="badge-text primary card-badge">New</div>
-        <div class="card-icon"><i class="fas fa-heart fa"></i></div>
-        <img
-          src="https://images.unsplash.com/photo-1594171334348-47faf56d8501?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
-          alt="card-img"
-          class="img-responsive"
-        />
-        <div class="card-body">
-          <div>Notebook</div>
-          <div class="text-2xl">Single ruled - Office Notebook</div>
-          <div class="card-price">
-            <span class="text-xl"> Rs. 490 </span>
-            <span class="price-before"> Rs. 1299 </span>
-            <span class="discount"> (62% OFF) </span>
-          </div>
-          <button class="btn">
-            <span><i class="fas fa-shopping-cart"></i></span>add to cart
-          </button>
-        </div>
+<body>
+  <!-- navigation -->
+  <nav class="nav">
+    <ul class="nav-links">
+      <li>
+        <a href="../index.html">
+          <img src="../images/logo.png" alt="logo" class="nav-logo" /></a>
+      </li>
+      <li>
+        <a href="../index.html">Home</a>
+      </li>
+      <li>
+        <a href="../documentation.html">Documentation</a>
+      </li>
+    </ul>
+    <ul class="social-media-links">
+      <li><i class="fab fa-github"></i></li>
+      <li><i class="fab fa-twitter"></i></li>
+      <li><i class="fab fa-linkedin-in"></i></li>
+    </ul>
+  </nav>
+  <!-- section -->
+  <main class="docs-container">
+    <aside class="docs-aside">
+      <h2 class="text-xl text-primary-variant">Get started</h2>
+      <div class="horizontal-div"></div>
+      <div class="docs-sub-container">
+        <a href="#" class="docs-link text-base">Introduction</a>
+        <a href="#" class="docs-link">Colors</a>
+        <a href="#" class="docs-link">Typography</a>
+        <a href="#" class="docs-link">Conclusion</a>
       </div>
+      <h2 class="text-xl text-primary-variant">Components</h2>
+      <div class="horizontal-div"></div>
+      <div class="docs-sub-container">
+        <a href="./avatar.html" class="docs-link">Avatar</a>
+        <a href="./alert.html" class="docs-link ">Alert</a>
+        <a href="./badge.html" class="docs-link">Badge</a>
+        <a href="./button.html" class="docs-link">Button</a>
+        <a href="./card.html" class="docs-link active-link">Card</a>
+        <a href="./images.html" class="docs-link">Image</a>
+        <a href="./input.html" class="docs-link">Input</a>
+      </div>
+    </aside>
+    <section class="components">
+      <h1 class="text-5xl py-2 text-primary-variant">Card component</h1>
+      <p class="pb-2">
+        Cards contain content and actions about a single subject. Cards are surfaces that display content and actions on
+        a single topic. They should be easy to scan for relevant and actionable information. Elements, like text and
+        images, should be placed on them in a way that clearly indicates hierarchy.
+      </p>
+      <div class="horizontal-div"></div>
+      <h2 class="py-1">Vertical cards</h2>
+      <p class="pb-2">
+        Copy below code and put your desired text and image and you are good to go.
+      </p>
 
-      <div class="card-container-vertical">
-        <div class="badge-text primary card-badge">New</div>
-        <div class="card-icon"><i class="fas fa-heart fa"></i></div>
-        <img
-          src="https://images.unsplash.com/photo-1594171334348-47faf56d8501?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
-          alt="card-img"
-          class="img-responsive"
-        />
-        <div class="card-body">
-          <div>Notebook</div>
-          <div class="text-2xl">Single ruled - Office Notebook</div>
-          <div class="card-price">
-            <span class="text-xl"> Rs. 490 </span>
-            <span class="price-before"> Rs. 1299 </span>
-            <span class="discount"> (62% OFF) </span>
-          </div>
-          <button class="btn">
-            <span><i class="fas fa-shopping-cart"></i></span>add to cart
-          </button>
-        </div>
-      </div>
-    </div>
-    <h2>horizontal cards</h2>
-    <div class="container">
-      <div class="card-container-horizontal">
-        <div class="badge-text primary card-badge">New</div>
-        <div class="card-icon"><i class="fas fa-heart fa"></i></div>
-        <img
-          src="https://images.unsplash.com/photo-1594171334348-47faf56d8501?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
-          alt="card-img"
-          class="img-responsive"
-        />
-        <div class="card-horizontal-section">
-          <div>Notebook</div>
-          <div class="text-2xl">Single ruled - Office Notebook</div>
-          <div class="text-sm">Sold by: Lorem, ipsum dolor.</div>
-          <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-            voluptatibus esse debitis.
-          </div>
-          <div class="card-price">
-            <span class="text-xl"> Rs. 490 </span>
-            <span class="price-before"> Rs. 1299 </span>
-            <span class="discount"> (62% OFF) </span>
-          </div>
-          <div>
-            <button class="btn">
-              <span><i class="fas fa-shopping-cart"></i></span>add to cart
-            </button>
-            <button class="btn outline-secondary">Move to wishlist</button>
-          </div>
-        </div>
-      </div>
-      <div class="card-container-horizontal">
-        <div class="badge-text primary card-badge">New</div>
-        <div class="card-icon"><i class="fas fa-heart fa"></i></div>
-        <img
-          src="https://images.unsplash.com/photo-1594171334348-47faf56d8501?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
-          alt="card-img"
-          class="img-responsive"
-        />
-        <div class="card-horizontal-section">
-          <div>Notebook</div>
-          <div class="text-2xl">Single ruled - Office Notebook</div>
-          <div class="text-sm">Sold by: Lorem, ipsum dolor.</div>
-          <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-            voluptatibus esse debitis.
-          </div>
-          <div class="card-price">
-            <span class="text-xl"> Rs. 490 </span>
-            <span class="price-before"> Rs. 1299 </span>
-            <span class="discount"> (62% OFF) </span>
-          </div>
-          <div>
-            <button class="btn">
-              <span><i class="fas fa-shopping-cart"></i></span>add to cart
-            </button>
-            <button class="btn outline-secondary">Move to wishlist</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card-container-horizontal">
-      <div class="badge-text primary card-badge">New</div>
-      <div class="card-icon"><i class="fas fa-heart fa"></i></div>
-      <img
-        src="https://images.unsplash.com/photo-1594171334348-47faf56d8501?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
-        alt="card-img"
-        class="img-responsive"
-      />
-      <div class="card-horizontal-section">
-        <div>Notebook</div>
-        <div class="text-2xl">Single ruled - Office Notebook</div>
-        <div class="text-sm">Sold by: Lorem, ipsum dolor.</div>
-        <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          voluptatibus esse debitis.
-        </div>
-        <div class="card-price">
-          <span class="text-xl"> Rs. 490 </span>
-          <span class="price-before"> Rs. 1299 </span>
-          <span class="discount"> (62% OFF) </span>
-        </div>
-        <div>
-          <button class="btn">
-            <span><i class="fas fa-shopping-cart"></i></span>add to cart
-          </button>
-          <button class="btn outline-secondary">Move to wishlist</button>
-        </div>
-      </div>
-    </div>
-    <h2>Card with shadow</h2>
-    <div class="container">
-      <div class="card-shadow card-container-vertical">
-        <div class="badge-text primary card-badge">New</div>
-        <div class="card-icon"><i class="fas fa-heart fa"></i></div>
-        <img
-          src="https://images.unsplash.com/photo-1594171334348-47faf56d8501?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
-          alt="card-img"
-          class="img-responsive"
-        />
-        <div class="card-body">
-          <div>Notebook</div>
-          <div class="text-2xl">Single ruled - Office Notebook</div>
-          <div class="card-price">
-            <span class="text-xl"> Rs. 490 </span>
-            <span class="price-before"> Rs. 1299 </span>
-            <span class="discount"> (62% OFF) </span>
-          </div>
-          <button class="btn">
-            <span><i class="fas fa-shopping-cart"></i></span>add to cart
-          </button>
-        </div>
-      </div>
-      <div class="card-shadow card-container-horizontal">
-        <div class="badge-text primary card-badge">New</div>
-        <div class="card-icon"><i class="fas fa-heart fa"></i></div>
-        <img
-          src="https://images.unsplash.com/photo-1594171334348-47faf56d8501?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
-          alt="card-img"
-          class="img-responsive"
-        />
-        <div class="card-horizontal-section">
-          <div>Notebook</div>
-          <div class="text-2xl">Single ruled - Office Notebook</div>
-          <div class="text-sm">Sold by: Lorem, ipsum dolor.</div>
-          <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-            voluptatibus esse debitis.
-          </div>
-          <div class="card-price">
-            <span class="text-xl"> Rs. 490 </span>
-            <span class="price-before"> Rs. 1299 </span>
-            <span class="discount"> (62% OFF) </span>
-          </div>
-          <div>
-            <button class="btn">
-              <span><i class="fas fa-shopping-cart"></i></span>add to cart
-            </button>
-            <button class="btn outline-secondary">Move to wishlist</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <h2>Text only cards</h2>
-    <div class="card-text">
-      <div class="text-3xl">card title</div>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi sapiente
-      rem aliquam expedita placeat consequuntur sequi officia. Odit labore
-      ipsam, explicabo qui vero maiores et ex beatae fuga non, necessitatibus a
-      quas molestiae dicta voluptates. Culpa, unde! Quisquam quidem doloribus
-      enim ipsam non cum aperiam temporibus, porro, repellendus voluptates nisi.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure soluta velit
-      consequatur in voluptas fugit sunt voluptate, quae molestias labore? Atque
-      mollitia sed veritatis, quo, facilis voluptatem consequatur natus
-      cupiditate officiis incidunt illo accusantium a ab repellat non tenetur
-      ullam perspiciatis voluptate reiciendis. Nesciunt quis perspiciatis nobis
-      officiis quam, inventore ipsum ratione ex, dolor obcaecati sequi
-    </div>
-    <h2>Cards with dismiss</h2>
-    <div class="container">
-      <div class="card-container-vertical">
-        <div class="badge-text primary card-badge">New</div>
-        <div class="card-icon"><i class="fas fa-times fa-2x"></i></div>
-        <img
-          src="https://images.unsplash.com/photo-1594171334348-47faf56d8501?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
-          alt="card-img"
-          class="img-responsive"
-        />
-        <div class="card-body">
-          <div>Notebook</div>
-          <div class="text-2xl">Single ruled - Office Notebook</div>
-          <div class="card-price">
-            <span class="text-xl"> Rs. 490 </span>
-            <span class="price-before"> Rs. 1299 </span>
-            <span class="discount"> (62% OFF) </span>
-          </div>
-          <button class="btn">
-            <span><i class="fas fa-shopping-cart"></i></span>add to cart
-          </button>
-        </div>
-      </div>
-      <div class="card-container-horizontal">
-        <div class="badge-text primary card-badge">New</div>
-        <div class="card-icon"><i class="fas fa-times fa-2x"></i></div>
-        <img
-          src="https://images.unsplash.com/photo-1594171334348-47faf56d8501?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
-          alt="card-img"
-          class="img-responsive"
-        />
-        <div class="card-horizontal-section">
-          <div>Notebook</div>
-          <div class="text-2xl">Single ruled - Office Notebook</div>
-          <div class="text-sm">Sold by: Lorem, ipsum dolor.</div>
-          <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-            voluptatibus esse debitis.
-          </div>
-          <div class="card-price">
-            <span class="text-xl"> Rs. 490 </span>
-            <span class="price-before"> Rs. 1299 </span>
-            <span class="discount"> (62% OFF) </span>
-          </div>
-          <div>
-            <button class="btn">
-              <span><i class="fas fa-shopping-cart"></i></span>add to cart
-            </button>
-            <button class="btn outline-secondary">Move to wishlist</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <h2>Cards with text overlay</h2>
-    <div class="container">
-      <div class="card-container-vertical">
-        <div class="card-overlay">
-          <div class="card-overlay-text text-3xl">Out of stock</div>
+      <div class="container component-example">
+        <div class="card-container-vertical">
           <div class="badge-text primary card-badge">New</div>
-          <div class="card-icon"><i class="fas fa-times fa-2x"></i></div>
-          <img
-            src="https://images.unsplash.com/photo-1594171334348-47faf56d8501?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
-            alt="card-img"
-            class="img-responsive"
-          />
+          <div class="card-icon"><i class="fas fa-heart fa"></i></div>
+          <img src="../images/card-comp.jpeg" alt="card-img" class="img-responsive" />
+          <div class="card-body">
+            <div>Notebook</div>
+            <div class="text-2xl">Single ruled - Office Notebook</div>
+            <div class="card-price">
+              <span class="text-xl"> Rs. 490 </span>
+              <span class="price-before"> Rs. 1299 </span>
+              <span class="discount"> (62% OFF) </span>
+            </div>
+            <button class="btn">
+              <span><i class="fas fa-shopping-cart"></i></span>add to cart
+            </button>
+          </div>
+        </div>
+
+        <div class="card-container-vertical">
+          <div class="badge-text primary card-badge">New</div>
+          <div class="card-icon"><i class="fas fa-heart fa"></i></div>
+          <img src="../images/card-comp.jpeg" alt="card-img" class="img-responsive" />
+          <div class="card-body">
+            <div>Notebook</div>
+            <div class="text-2xl">Single ruled - Office Notebook</div>
+            <div class="card-price">
+              <span class="text-xl"> Rs. 490 </span>
+              <span class="price-before"> Rs. 1299 </span>
+              <span class="discount"> (62% OFF) </span>
+            </div>
+            <button class="btn">
+              <span><i class="fas fa-shopping-cart"></i></span>add to cart
+            </button>
+          </div>
+        </div>
+
+        <div class="card-container-vertical">
+          <div class="badge-text primary card-badge">New</div>
+          <div class="card-icon"><i class="fas fa-heart fa"></i></div>
+          <img src="../images/card-comp.jpeg" alt="card-img" class="img-responsive" />
           <div class="card-body">
             <div>Notebook</div>
             <div class="text-2xl">Single ruled - Office Notebook</div>
@@ -315,11 +123,299 @@
           </div>
         </div>
       </div>
-    </div>
-    <!-- font awesome icons-->
-    <script
-      src="https://kit.fontawesome.com/692dfd03ca.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      <div class="code-snippet-display">
+        <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2509%2509%253Cdiv%2520class%253D%2522card-container-vertical%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522badge-text%2520primary%2520card-badge%2522%253ENew%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2520fa%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fcard-comp.jpeg%2522%2520alt%253D%2522card-img%2522%2520class%253D%2522img-responsive%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253ENotebook%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-2xl%2522%253ESingle%2520ruled%2520-%2520Office%2520Notebook%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-xl%2522%253E%2520Rs.%2520490%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-before%2522%253E%2520Rs.%25201299%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E%2520%2862%2525%2520OFF%29%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253Eadd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              class="code-snippets"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </code>
+      </div>
+      <div class="horizontal-div"></div>
+
+      <h2 class="py-1">Horizontal cards</h2>
+      <p class="pb-2">
+        Copy below code and put your desired text and image and you are good to go.
+      </p>
+      <div class="component-example">
+        <div class="card-container-horizontal">
+          <div class="badge-text primary card-badge">New</div>
+          <div class="card-icon"><i class="fas fa-heart fa"></i></div>
+          <img src="../images/card-comp.jpeg" alt="card-img" class="img-responsive" />
+          <div class="card-horizontal-section">
+            <div>Notebook</div>
+            <div class="text-2xl">Single ruled - Office Notebook</div>
+            <div class="text-sm">Sold by: Lorem, ipsum dolor.</div>
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              voluptatibus esse debitis.
+            </div>
+            <div class="card-price">
+              <span class="text-xl"> Rs. 490 </span>
+              <span class="price-before"> Rs. 1299 </span>
+              <span class="discount"> (62% OFF) </span>
+            </div>
+            <div>
+              <button class="btn">
+                <span><i class="fas fa-shopping-cart"></i></span>add to cart
+              </button>
+              <button class="btn outline-secondary">Move to wishlist</button>
+            </div>
+          </div>
+        </div>
+        <div class="card-container-horizontal">
+          <div class="badge-text primary card-badge">New</div>
+          <div class="card-icon"><i class="fas fa-heart fa"></i></div>
+          <img src="../images/card-comp.jpeg" alt="card-img" class="img-responsive" />
+          <div class="card-horizontal-section">
+            <div>Notebook</div>
+            <div class="text-2xl">Single ruled - Office Notebook</div>
+            <div class="text-sm">Sold by: Lorem, ipsum dolor.</div>
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              voluptatibus esse debitis.
+            </div>
+            <div class="card-price">
+              <span class="text-xl"> Rs. 490 </span>
+              <span class="price-before"> Rs. 1299 </span>
+              <span class="discount"> (62% OFF) </span>
+            </div>
+            <div>
+              <button class="btn">
+                <span><i class="fas fa-shopping-cart"></i></span>add to cart
+              </button>
+              <button class="btn outline-secondary">Move to wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="code-snippet-display">
+        <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2509%2509%253Cdiv%2520class%253D%2522card-container-horizontal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-text%2520primary%2520card-badge%2522%253ENew%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2520fa%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fcard-comp.jpeg%2522%2520alt%253D%2522card-img%2522%2520class%253D%2522img-responsive%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-horizontal-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253ENotebook%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-2xl%2522%253ESingle%2520ruled%2520-%2520Office%2520Notebook%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-sm%2522%253ESold%2520by%253A%2520Lorem%252C%2520ipsum%2520dolor.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Laborum%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520voluptatibus%2520esse%2520debitis.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-xl%2522%253E%2520Rs.%2520490%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-before%2522%253E%2520Rs.%25201299%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E%2520%2862%2525%2520OFF%29%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253Eadd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-secondary%2522%253EMove%2520to%2520wishlist%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              class="code-snippets"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </code>
+      </div>
+      <div class="horizontal-div"></div>
+      <h2 class="py-1">Card with shadow</h2>
+      <p class="pb-2">
+        Copy below code and put your desired text and image and you are good to go.
+      </p>
+      <div class="component-example">
+        <div class="container">
+          <div class="card-shadow card-container-vertical">
+            <div class="badge-text primary card-badge">New</div>
+            <div class="card-icon"><i class="fas fa-heart fa"></i></div>
+            <img src="../images/card-comp.jpeg" alt="card-img" class="img-responsive" />
+            <div class="card-body">
+              <div>Notebook</div>
+              <div class="text-2xl">Single ruled - Office Notebook</div>
+              <div class="card-price">
+                <span class="text-xl"> Rs. 490 </span>
+                <span class="price-before"> Rs. 1299 </span>
+                <span class="discount"> (62% OFF) </span>
+              </div>
+              <button class="btn">
+                <span><i class="fas fa-shopping-cart"></i></span>add to cart
+              </button>
+            </div>
+          </div>
+          <div class="card-shadow card-container-horizontal">
+            <div class="badge-text primary card-badge">New</div>
+            <div class="card-icon"><i class="fas fa-heart fa"></i></div>
+            <img src="../images/card-comp.jpeg" alt="card-img" class="img-responsive" />
+            <div class="card-horizontal-section">
+              <div>Notebook</div>
+              <div class="text-2xl">Single ruled - Office Notebook</div>
+              <div class="text-sm">Sold by: Lorem, ipsum dolor.</div>
+              <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                voluptatibus esse debitis.
+              </div>
+              <div class="card-price">
+                <span class="text-xl"> Rs. 490 </span>
+                <span class="price-before"> Rs. 1299 </span>
+                <span class="discount"> (62% OFF) </span>
+              </div>
+              <div>
+                <button class="btn">
+                  <span><i class="fas fa-shopping-cart"></i></span>add to cart
+                </button>
+                <button class="btn outline-secondary">Move to wishlist</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="code-snippet-display">
+        <code>
+          <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522card-shadow%2520card-container-vertical%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-text%2520primary%2520card-badge%2522%253ENew%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2520fa%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fcard-comp.jpeg%2522%2520alt%253D%2522card-img%2522%2520class%253D%2522img-responsive%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253ENotebook%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-2xl%2522%253ESingle%2520ruled%2520-%2520Office%2520Notebook%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-xl%2522%253E%2520Rs.%2520490%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-before%2522%253E%2520Rs.%25201299%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E%2520%2862%2525%2520OFF%29%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253Eadd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-shadow%2520card-container-horizontal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-text%2520primary%2520card-badge%2522%253ENew%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2520fa%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fcard-comp.jpeg%2522%2520alt%253D%2522card-img%2522%2520class%253D%2522img-responsive%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-horizontal-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253ENotebook%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-2xl%2522%253ESingle%2520ruled%2520-%2520Office%2520Notebook%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-sm%2522%253ESold%2520by%253A%2520Lorem%252C%2520ipsum%2520dolor.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Laborum%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520voluptatibus%2520esse%2520debitis.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-xl%2522%253E%2520Rs.%2520490%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-before%2522%253E%2520Rs.%25201299%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E%2520%2862%2525%2520OFF%29%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253Eadd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-secondary%2522%253EMove%2520to%2520wishlist%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              class="code-snippets"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </code>
+      </div>
+      <div class="horizontal-div"></div>
+      <h2 class="py-1">Text only cards</h2>
+      <p class="pb-2">
+        Simple Card is the one that contains a title, a descriptive text. To use the simple card add the class name
+        <span class="text-secondary">card-text</span>to the wrapped div.
+      </p>
+
+      <div class="container component-example">
+        <div class="card-text">
+          <div class="text-3xl">Card title</div>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi sapiente
+          rem aliquam expedita placeat consequuntur sequi officia. Odit labore
+          ipsam, explicabo qui vero maiores et ex beatae fuga non, necessitatibus a
+          quas molestiae dicta voluptates. Culpa, unde! Quisquam quidem doloribus
+          enim ipsam non cum aperiam temporibus, porro, repellendus voluptates nisi.
+
+        </div>
+      </div>
+      <div class="code-snippet-display">
+        <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2509%2509%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-3xl%2522%253ECard%2520title%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Nisi%2520sapiente%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520rem%2520aliquam%2520expedita%2520placeat%2520consequuntur%2520sequi%2520officia.%2520Odit%2520labore%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520ipsam%252C%2520explicabo%2520qui%2520vero%2520maiores%2520et%2520ex%2520beatae%2520fuga%2520non%252C%2520necessitatibus%2520a%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520quas%2520molestiae%2520dicta%2520voluptates.%2520Culpa%252C%2520unde%21%2520Quisquam%2520quidem%2520doloribus%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520enim%2520ipsam%2520non%2520cum%2520aperiam%2520temporibus%252C%2520porro%252C%2520repellendus%2520voluptates%2520nisi.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              class="code-snippets"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </code>
+      </div>
+
+      <div class="horizontal-div"></div>
+      <h2 class="py-1">Cards with dismiss</h2>
+      <p class="pb-2">
+        Copy below code and put your desired text and image and you are good to go.
+      </p>
+
+      <div class="container component-example">
+        <div class="card-container-vertical">
+          <div class="badge-text primary card-badge">New</div>
+          <div class="card-icon"><i class="fas fa-times fa-2x"></i></div>
+          <img src="../images/card-comp.jpeg" alt="card-img" class="img-responsive" />
+          <div class="card-body">
+            <div>Notebook</div>
+            <div class="text-2xl">Single ruled - Office Notebook</div>
+            <div class="card-price">
+              <span class="text-xl"> Rs. 490 </span>
+              <span class="price-before"> Rs. 1299 </span>
+              <span class="discount"> (62% OFF) </span>
+            </div>
+            <button class="btn">
+              <span><i class="fas fa-shopping-cart"></i></span>add to cart
+            </button>
+          </div>
+        </div>
+        <div class="card-container-horizontal">
+          <div class="badge-text primary card-badge">New</div>
+          <div class="card-icon"><i class="fas fa-times fa-2x"></i></div>
+          <img src="../images/card-comp.jpeg" alt="card-img" class="img-responsive" />
+          <div class="card-horizontal-section">
+            <div>Notebook</div>
+            <div class="text-2xl">Single ruled - Office Notebook</div>
+            <div class="text-sm">Sold by: Lorem, ipsum dolor.</div>
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+              voluptatibus esse debitis.
+            </div>
+            <div class="card-price">
+              <span class="text-xl"> Rs. 490 </span>
+              <span class="price-before"> Rs. 1299 </span>
+              <span class="discount"> (62% OFF) </span>
+            </div>
+            <div>
+              <button class="btn">
+                <span><i class="fas fa-shopping-cart"></i></span>add to cart
+              </button>
+              <button class="btn outline-secondary">Move to wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="code-snippet-display">
+        <code>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2509%2509%253Cdiv%2520class%253D%2522card-container-horizontal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-text%2520primary%2520card-badge%2522%253ENew%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2520fa-2x%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fcard-comp.jpeg%2522%2520alt%253D%2522card-img%2522%2520class%253D%2522img-responsive%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-horizontal-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253ENotebook%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-2xl%2522%253ESingle%2520ruled%2520-%2520Office%2520Notebook%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-sm%2522%253ESold%2520by%253A%2520Lorem%252C%2520ipsum%2520dolor.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Laborum%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520voluptatibus%2520esse%2520debitis.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-xl%2522%253E%2520Rs.%2520490%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-before%2522%253E%2520Rs.%25201299%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E%2520%2862%2525%2520OFF%29%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253Eadd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-secondary%2522%253EMove%2520to%2520wishlist%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                class="code-snippets"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+          </code>
+      </div>
+      <div class="horizontal-div"></div>
+      <h2 class="py-1">Cards with text overlay</h2>
+      <p class="pb-2">
+        Copy below code and put your desired text and image and you are good to go.
+      </p>
+
+      <div class="container component-example">
+        <div class="card-container-vertical">
+          <div class="card-overlay">
+            <div class="card-overlay-text text-3xl">Out of stock</div>
+            <div class="badge-text primary card-badge">New</div>
+            <div class="card-icon"><i class="fas fa-times fa-2x"></i></div>
+            <img src="../images/card-comp.jpeg" alt="card-img" class="img-responsive" />
+            <div class="card-body">
+              <div>Notebook</div>
+              <div class="text-2xl">Single ruled - Office Notebook</div>
+              <div class="card-price">
+                <span class="text-xl"> Rs. 490 </span>
+                <span class="price-before"> Rs. 1299 </span>
+                <span class="discount"> (62% OFF) </span>
+              </div>
+              <button class="btn">
+                <span><i class="fas fa-shopping-cart"></i></span>add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card-container-vertical">
+          <div class="card-overlay">
+            <div class="card-overlay-text text-3xl">Out of stock</div>
+            <div class="badge-text primary card-badge">New</div>
+            <div class="card-icon"><i class="fas fa-times fa-2x"></i></div>
+            <img src="../images/card-comp.jpeg" alt="card-img" class="img-responsive" />
+            <div class="card-body">
+              <div>Notebook</div>
+              <div class="text-2xl">Single ruled - Office Notebook</div>
+              <div class="card-price">
+                <span class="text-xl"> Rs. 490 </span>
+                <span class="price-before"> Rs. 1299 </span>
+                <span class="discount"> (62% OFF) </span>
+              </div>
+              <button class="btn">
+                <span><i class="fas fa-shopping-cart"></i></span>add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="code-snippet-display">
+        <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2509%2509%253Cdiv%2520class%253D%2522card-container-vertical%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-overlay-text%2520text-3xl%2522%253EOut%2520of%2520stock%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-text%2520primary%2520card-badge%2522%253ENew%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2520fa-2x%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fcard-comp.jpeg%2522%2520alt%253D%2522card-img%2522%2520class%253D%2522img-responsive%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253ENotebook%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-2xl%2522%253ESingle%2520ruled%2520-%2520Office%2520Notebook%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-xl%2522%253E%2520Rs.%2520490%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-before%2522%253E%2520Rs.%25201299%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E%2520%2862%2525%2520OFF%29%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253Eadd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              class="code-snippets"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </code>
+      </div>
+      </div>
+
+  </main>
+  <!-- footer -->
+  <footer class="p-5px footer">
+    <p class="text-xs pb-5px">Made with ❤️ by Srishti Maurya &copy 2022</p>
+    <ul class="social-media-links">
+      <li><i class="fab fa-github"></i></li>
+      <li><i class="fab fa-twitter"></i></li>
+      <li><i class="fab fa-linkedin-in"></i></li>
+    </ul>
+  </footer>
+</body>
+
 </html>

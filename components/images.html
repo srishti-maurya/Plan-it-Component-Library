@@ -1,31 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Plan it, Use it | Image</title>
-    <link rel="stylesheet" href="../styles/main.css" />
-  </head>
-  <body>
-    <h1>Responsive image component</h1>
 
-    <p>Note : Resize the browser window, to see the responsive property.</p>
-    <h2>Round image</h2>
-    <div class="img-container">
-      <img
-        src="https://images.unsplash.com/photo-1603975711481-18b7aaca4caa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160&q=80"
-        alt="img-responsive-round"
-        class="img-responsive img-round"
-      />
-    </div>
-    <h2>Default image</h2>
-    <div class="img-container">
-      <img
-        src="https://images.unsplash.com/photo-1527219525722-f9767a7f2884?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80"
-        alt="img-responsive"
-        class="img-responsive"
-      />
-    </div>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plan it, Use it | Image</title>
+  <link rel="stylesheet" href="../styles/main.css" />
+  <!-- font awesome icons-->
+  <script src="https://kit.fontawesome.com/692dfd03ca.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- navigation -->
+  <nav class="nav">
+    <ul class="nav-links">
+      <li>
+        <a href="../index.html">
+          <img src="../images/logo.png" alt="logo" class="nav-logo" /></a>
+      </li>
+      <li>
+        <a href="../index.html">Home</a>
+      </li>
+      <li>
+        <a href="../documentation.html">Documentation</a>
+      </li>
+    </ul>
+    <ul class="social-media-links">
+      <li><i class="fab fa-github"></i></li>
+      <li><i class="fab fa-twitter"></i></li>
+      <li><i class="fab fa-linkedin-in"></i></li>
+    </ul>
+  </nav>
+  <!-- section -->
+  <main class="docs-container">
+    <aside class="docs-aside">
+      <h2 class="text-xl text-primary-variant">Get started</h2>
+      <div class="horizontal-div"></div>
+      <div class="docs-sub-container">
+        <a href="#" class="docs-link text-base">Introduction</a>
+        <a href="#" class="docs-link">Colors</a>
+        <a href="#" class="docs-link">Typography</a>
+        <a href="#" class="docs-link">Conclusion</a>
+      </div>
+      <h2 class="text-xl text-primary-variant">Components</h2>
+      <div class="horizontal-div"></div>
+      <div class="docs-sub-container">
+        <a href="./avatar.html" class="docs-link">Avatar</a>
+        <a href="./alert.html" class="docs-link">Alert</a>
+        <a href="./badge.html" class="docs-link">Badge</a>
+        <a href="./button.html" class="docs-link">Button</a>
+        <a href="./card.html" class="docs-link">Card</a>
+        <a href="./images.html" class="docs-link active-link">Image</a>
+        <a href="./input.html" class="docs-link">Input</a>
+      </div>
+    </aside>
+    <section class="components">
+      <h1 class="text-5xl py-2 text-primary-variant">Image component</h1>
+      <p class="pb-2">
+        Images can be responsive to fit the parent's width, and also can be customised to be round shaped.
+        <span class="text-secondary">
+          Note : Resize the browser window, to see the responsive property
+        </span>
+      </p>
+
+      <div class="horizontal-div"></div>
+      <h2 class="py-1">Round image</h2>
+      <p class="pb-2">
+        To use round responsive image add class name
+        <span class="text-secondary">img-responsive, img-round</span>to img tag wrapper inside a <span
+          class="text-secondary">img-container</span>
+      </p>
+      <div class=" container component-example">
+        <div class="img-container">
+          <img src="../images/res-img1.jpeg" alt="img-responsive-round" class="img-responsive img-round" />
+        </div>
+      </div>
+      <div class="code-snippet-display">
+        <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fres-img1.jpeg%2522%2520alt%253D%2522img-responsive-round%2522%2520class%253D%2522img-responsive%2520img-round%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              class="code-snippets"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </code>
+      </div>
+      <div class="horizontal-div"></div>
+      <h2 class="py-1">Square image</h2>
+      <p class="pb-2">
+        To use responsive image add class name
+        <span class="text-secondary">img-responsive</span>to img tag wrapper inside a <span
+          class="text-secondary">img-container</span>
+      </p>
+      <div class=" container component-example">
+        <div class="img-container">
+          <img src="../images/res-img2.jpeg" alt="img-responsive-round" class="img-responsive" />
+        </div>
+      </div>
+      <div class="code-snippet-display">
+        <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fres-img2.jpeg%2522%2520alt%253D%2522img-responsive-round%2522%2520class%253D%2522img-responsive%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              class="code-snippets"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </code>
+      </div>
+    </section>
+  </main>
+  <!-- footer -->
+  <footer class="p-5px footer">
+    <p class="text-xs pb-5px">Made with ❤️ by Srishti Maurya &copy 2022</p>
+    <ul class="social-media-links">
+      <li><i class="fab fa-github"></i></li>
+      <li><i class="fab fa-twitter"></i></li>
+      <li><i class="fab fa-linkedin-in"></i></li>
+    </ul>
+  </footer>
+</body>
+
 </html>

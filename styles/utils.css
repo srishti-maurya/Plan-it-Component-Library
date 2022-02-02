@@ -2,7 +2,6 @@
 
 :root {
   --primary: #15325e;
-  /* --primary1: #93c47d; */
   --primary-dark-variant: #001945;
   --primary-light-variant: #94b1dd;
   --secondary: #cbdc29;
@@ -27,6 +26,8 @@
   --info: #9ad0ec;
   --info-variant: #679db9;
 }
+
+/* background-colors */
 
 .primary {
   background-color: var(--primary);
@@ -121,13 +122,40 @@
   border: 1px solid var(--dark);
 }
 
+/* headings */
+
+.h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 4rem;
+}
+.h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+}
+.h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 2rem;
+}
+.h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+.h5 {
+  font-size: 0.5rem;
+  font-weight: bold;
+  line-height: 1rem;
+}
+
 /* text-sizes */
 
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
 }
-
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -161,49 +189,40 @@
   line-height: 1;
 }
 
-/* line-heights */
+/* font weights */
 
-.leading-3 {
-  line-height: 0.75rem;
+.f-light {
+  font-weight: 300;
 }
-.leading-4 {
-  line-height: 1rem;
+
+.f-regular {
+  font-weight: 400;
 }
-.leading-5 {
-  line-height: 1.25rem;
+.f-semibold {
+  font-weight: 600;
 }
-.leading-6 {
-  line-height: 1.5rem;
+.f-bold {
+  font-weight: 700;
 }
-.leading-7 {
-  line-height: 1.75rem;
+.f-black {
+  font-weight: 900;
 }
-.leading-8 {
-  line-height: 2rem;
+
+/* text-align */
+.text-center {
+  text-align: center;
 }
-.leading-9 {
-  line-height: 2.25rem;
+
+.text-left {
+  text-align: left;
 }
-.leading-10 {
-  line-height: 2.5rem;
+
+.text-right {
+  text-align: right;
 }
-.leading-none {
-  line-height: 1;
-}
-.leading-tight {
-  line-height: 1.25;
-}
-.leading-snug {
-  line-height: 1.375;
-}
-.leading-normal {
-  line-height: 1.5;
-}
-.leading-relaxed {
-  line-height: 1.625;
-}
-.leading-loose {
-  line-height: 2;
+
+.text-justify {
+  text-align: justify;
 }
 
 /* text color */
@@ -222,6 +241,26 @@
 
 .text-secondary {
   color: var(--secondary-dark-variant);
+}
+
+.text-success {
+  color: var(--success);
+}
+
+.text-warning {
+  color: var(--warning);
+}
+
+.text-info {
+  color: var(--info);
+}
+
+.text-dark {
+  color: var(--dark);
+}
+
+.text-grey {
+  color: var(--moderate);
 }
 
 /* displays */
@@ -256,6 +295,20 @@
   padding-bottom: 5px;
 }
 
+.pt-2 {
+  padding-top: 2rem;
+}
+
 .pb-2 {
   padding-bottom: 2rem;
+}
+
+/* margin */
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mx-1 {
+  margin: 0 0.5rem;
 }

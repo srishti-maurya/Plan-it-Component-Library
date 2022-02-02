@@ -12,6 +12,7 @@
 @import url(./button.css);
 @import url(./utils.css);
 @import url(../index.css);
+
 /* reset css */
 
 * {
@@ -75,43 +76,3 @@ li {
   color: var(--secondary-dark-variant);
   font-weight: bold;
 }
-
-.component-example {
-  border: 1px solid var(--background);
-}
-
-/* code-snippets */
-
-.code-snippets {
-  border: 0;
-  transform: scale(1);
-  overflow: hidden;
-}
-
-.code-snippets-installation {
-  width: 710px;
-  height: 100px;
-  border: 1px solid var(--secondary-dark-variant);
-  border-radius: 5px;
-}
-
-.code-snippet-display {
-  box-sizing: border-box;
-  width: 100%;
-  max-height: 500px;
-  padding: 1rem 0;
-  background-color: var(--white-variant);
-  margin: 2rem 0;
-  overflow: auto;
-  border: 1px solid var(--secondary);
-}
-
-.code-snippet-display iframe {
-  width: 100%;
-  border: none;
-}
-
-/* class="code-snippets" */
-/* 
-<span class="text-secondary"> 
-*/

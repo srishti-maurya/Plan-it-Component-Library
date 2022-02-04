@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plan it, Use it | Lists</title>
+    <link rel="stylesheet" href="../styles/main.css" />
+    <!-- font awesome icons-->
+    <script src="https://kit.fontawesome.com/692dfd03ca.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navigation -->
+    <nav class="nav">
+        <div class="logo-small-screen">
+            <a href="../index.html"> <img src="../images/logo.png" alt="logo" class="nav-logo" /></a>
+        </div>
+        <ul class="nav-links">
+            <li class="list-style-none">
+                <a href="../index.html"> <img src="../images/logo.png" alt="logo" class="nav-logo" /></a>
+            </li>
+            <li class="list-style-none">
+                <a href="../index.html">Home</a>
+            </li>
+            <li class="list-style-none">
+                <a href="../Docs/introduction.html">Documentation</a>
+            </li>
+        </ul>
+        <ul class="social-media-links">
+            <li class="list-style-none">
+                <a href="https://github.com/srishti-maurya" class="text-primary" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="list-style-none">
+                <a href="https://twitter.com/SrishtiMaurya1?s=09" class="text-primary" target="_blank"><i
+                        class="fab fa-twitter"></i></a>
+            </li>
+            <li class="list-style-none">
+                <a href="https://www.linkedin.com/in/mauryasrishti22/" class="text-primary" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- responsive section -->
+    <div class="sidebar-toggle-container">
+        <button class="sidebar-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+    <section class="sidebar">
+        <div class="sidebar-header">
+            <a href="../index.html">
+                <img src="../images/logo.png" class="nav-logo" alt="logo" /></a>
+            <button class="close-btn"><i class="fas fa-times"></i></button>
+        </div>
+        <ul class="sidebar-nav-links text-lg f-bold">
+            <li class="list-style-none">
+                <a href="../index.html">Home</a>
+            </li>
+            <li class="list-style-none">
+                <a href="../Docs/introduction.html">Documentation</a>
+            </li>
+        </ul>
+        <aside class="sidebar-aside">
+            <h2 class="text-xl text-primary-variant">Get started</h2>
+            <div class="horizontal-div"></div>
+            <div class="docs-sub-container">
+                <a href="../Docs/introduction.html" class="docs-link">Introduction</a>
+                <a href="../Docs/colors.html" class="docs-link">Colors</a>
+                <a href="../Docs/typography.html" class="docs-link">Typography</a>
+                <a href="../Docs/conclusion.html" class="docs-link">Conclusion</a>
+            </div>
+            <h2 class="text-xl text-primary-variant">Components</h2>
+            <div class="horizontal-div"></div>
+            <div class="docs-sub-container">
+                <a href="../components/avatar.html" class="docs-link">Avatar</a>
+                <a href="../components/alert.html" class="docs-link">Alert</a>
+                <a href="../components/badge.html" class="docs-link">Badge</a>
+                <a href="../components/button.html" class="docs-link">Button</a>
+                <a href="../components/card.html" class="docs-link">Card</a>
+                <a href="../components/images.html" class="docs-link">Image</a>
+                <a href="../components/input.html" class="docs-link">Input</a>
+                <a href="../components/lists.html" class="docs-link active-link">Lists</a>
+            </div>
+        </aside>
+    </section>
+
+    <!-- section -->
+    <main class="docs-container">
+        <aside class="docs-aside">
+            <h2 class="text-xl text-primary-variant">Get started</h2>
+            <div class="horizontal-div"></div>
+            <div class="docs-sub-container">
+                <a href="../Docs/introduction.html" class="docs-link">Introduction</a>
+                <a href="../Docs/colors.html" class="docs-link">Colors</a>
+                <a href="../Docs/typography.html" class="docs-link">Typography</a>
+                <a href="../Docs/typography.html" class="docs-link">Conclusion</a>
+            </div>
+            <h2 class="text-xl text-primary-variant">Components</h2>
+            <div class="horizontal-div"></div>
+            <div class="docs-sub-container">
+                <a href="./avatar.html" class="docs-link">Avatar</a>
+                <a href="./alert.html" class="docs-link">Alert</a>
+                <a href="./badge.html" class="docs-link">Badge</a>
+                <a href="./button.html" class="docs-link">Button</a>
+                <a href="./card.html" class="docs-link">Card</a>
+                <a href="./images.html" class="docs-link">Image</a>
+                <a href="./input.html" class="docs-link">Input</a>
+                <a href="./lists.html" class="docs-link active-link">Lists</a>
+            </div>
+        </aside>
+
+        <section class="components">
+            <h1 class="text-5xl py-2 text-primary-variant">Lists component</h1>
+            <p class="pb-2">
+                Lists are a continuous group of text or images. They are composed of items containing primary and
+                supplemental actions, which are represented by icons and text.
+            </p>
+            <div class="horizontal-div"></div>
+            <!-- test item start -->
+
+            <!-- test item end -->
+            <h2 class="py-1">Unordered List with bullets</h2>
+            <p class="pb-2">
+                To use unordered list with bullets add class name
+                <span class="text-secondary">styled-list</span>inside the ul tag. For different variants of bullet add
+                class names accordingly
+                <span class="text-secondary">list-style-circle, list-style-square</span>
+                if variant is not provided default variant would be used.
+            </p>
+            <div class="component-example container list-component-example-container">
+                <ul class="styled-list styled-list-bg">
+                    <li>list item 1</li>
+                    <li>list item 2</li>
+                    <li>list item 3</li>
+                </ul>
+                <ul class="styled-list styled-list-bg list-style-circle">
+                    <li>list item 1</li>
+                    <li>list item 2</li>
+                    <li>list item 3</li>
+                </ul>
+                <ul class="styled-list styled-list-bg list-style-square">
+                    <li>list item 1</li>
+                    <li>list item 2</li>
+                    <li>list item 3</li>
+                </ul>
+            </div>
+            <div class="code-snippet-display">
+                <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520info%2522%253EThis%2520is%2520a%2520primary%2520Alert%2520-%2520Check%2520it%2520now%21%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520warning%2522%253EThis%2520is%2520a%2520warning%2520Alert%2520-%2520Check%2520it%2520now%21%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520success%2522%253EThis%2520is%2520a%2520success%2520Alert%2520-%2520Check%2520it%2520now%21%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520error%2522%253EThis%2520is%2520a%2520failure%2520Alert%2520-%2520Check%2520it%2520now%21%253C%252Fdiv%253E"
+                            class="code-snippets"
+                            sandbox="allow-scripts allow-same-origin"
+                        >
+                        </iframe>
+                    </code>
+            </div>
+            <div class="horizontal-div"></div>
+
+            <h2 class="py-1">Ordered List with bullets</h2>
+            <p class="pb-2">
+                To use ordered list with bullets add class name
+                <span class="text-secondary">styled-list</span>inside the ol tag. For different variants of order add
+                class names accordingly
+                <span class="text-secondary">list-style-lowercase, list-style-uppercase,
+                    list-style-lowercase-roman,list-style-uppercase-roman</span>
+                if variant is not provided default variant would be used. To reverse the order of ordered list, add
+                <span class="text-secondary">reversed</span> attribute to ol tag.
+            </p>
+            <div class="component-example list-component-example-container container">
+                <ol class="styled-list styled-list-bg">
+                    <li>list item with number</li>
+                    <li>list item with number</li>
+                    <li>list item with number</li>
+                </ol>
+                <ol reversed class="styled-list styled-list-bg">
+                    <li>Reversed list item</li>
+                    <li>Reversed list item</li>
+                    <li>Reversed list item</li>
+                </ol>
+                <ol class="styled-list styled-list-bg list-style-lowercase">
+                    <li>List item with lowercase alphabets</li>
+                    <li>List item with lowercase alphabets</li>
+                    <li>List item with lowercase alphabets</li>
+                </ol>
+                <ol class="styled-list styled-list-bg list-style-uppercase">
+                    <li>List item with uppercase alphabets</li>
+                    <li>List item with uppercase alphabets</li>
+                    <li>List item with uppercase alphabets</li>
+                </ol>
+                <ol class="styled-list styled-list-bg list-style-lowercase-roman">
+                    <li>List item with lowercase roman number</li>
+                    <li>List item with lowercase roman number</li>
+                    <li>List item with lowercase roman number</li>
+                </ol>
+                <ol class="styled-list styled-list-bg list-style-uppercase-roman">
+                    <li>List item with uppercase roman number</li>
+                    <li>List item with uppercase roman number</li>
+                    <li>List item with uppercase roman number</li>
+                </ol>
+            </div>
+            <div class="code-snippet-display">
+                <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520outline-info%2522%253EThis%2520is%2520a%2520primary%2520Alert%2520-%2520Check%2520it%2520now%21%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520outline-warning%2522%253EThis%2520is%2520a%2520warning%2520Alert%2520-%2520Check%2520it%2520now%21%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520outline-success%2522%253EThis%2520is%2520a%2520success%2520Alert%2520-%2520Check%2520it%2520now%21%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520outline-error%2522%253EThis%2520is%2520a%2520failure%2520Alert%2520-%2520Check%2520it%2520now%21%253C%252Fdiv%253E"
+                            class="code-snippets"
+                            sandbox="allow-scripts allow-same-origin"
+                        >
+                        </iframe>
+                    </code>
+            </div>
+            <div class="horizontal-div"></div>
+
+            <h2 class="py-1">List with no bullets</h2>
+            <p class="pb-2">If you want list stacked but with no bullet and indentation, then you may use this
+                component. To use list with no bullets add class name <span
+                    class="text-secondary">list-style-none</span></p>
+            <div class="component-example container">
+                <ul class="styled-list styled-list-bg list-style-none">
+                    <li>list item 1</li>
+                    <li>list item 2</li>
+                    <li>list item 3</li>
+                </ul>
+            </div>
+            <div class="code-snippet-display">
+                <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520info%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-info%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520primary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520warning%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520warning%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-success%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-error%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520failure%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                            class="code-snippets"
+                            sandbox="allow-scripts allow-same-origin"
+                        >
+                        </iframe>
+                    </code>
+            </div>
+            <div class="horizontal-div"></div>
+            <h2 class="py-1">List with inline items</h2>
+            <p class="pb-2">If you want list items in same line instead of stacked, then you may use this component. To
+                use list with inline items add class name <span class="text-secondary">list-inline</span></p>
+            <div class="component-example">
+                <ul class="styled-list styled-list-bg list-style-none list-inline">
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                </ul>
+            </div>
+            <div class="code-snippet-display">
+                <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520info%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-info%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520primary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520warning%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520warning%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-success%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-error%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520failure%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                            class="code-snippets"
+                            sandbox="allow-scripts allow-same-origin"
+                        >
+                        </iframe>
+                    </code>
+            </div>
+            <div class="horizontal-div"></div>
+            <h2 class="py-1">List with icon</h2>
+            <p class="pb-2">To use list with icon add class name <span class="text-secondary">list-style-icon</span>
+                along with the icon.</p>
+            <div class="component-example">
+                <ul class="styled-list styled-list-bg list-style-none list-style-icon">
+                    <li><i class="fas fa-check-circle"></i>list item 1</li>
+                    <li><i class="fas fa-check-circle"></i>list item 2</li>
+                    <li><i class="fas fa-cog"></i>list item 3</li>
+                </ul>
+            </div>
+            <div class="code-snippet-display">
+                <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520info%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-info%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520primary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520warning%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520warning%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-success%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-error%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520failure%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                            class="code-snippets"
+                            sandbox="allow-scripts allow-same-origin"
+                        >
+                        </iframe>
+                    </code>
+            </div>
+            <div class="horizontal-div"></div>
+
+            <h2 class="py-1">Basic List</h2>
+            <p class="pb-2">
+                Copy below code and put your desired text and icon and you are good to go.
+            </p>
+            <div class="component-example container">
+                <div class="list-container text-lg">
+                    <div class="list-item"><i class="fas fa-inbox list-icon"></i> Inbox</div>
+                    <div class="list-item"><i class="fas fa-envelope-open list-icon"></i> Drafts</div>
+                    <div class="list-horizontal-div"></div>
+                    <div class="list-item">
+                        Trash
+                    </div>
+                    <div class="list-item">
+                        Spam
+                    </div>
+                </div>
+            </div>
+            <div class="code-snippet-display">
+                <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520info%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-info%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520primary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520warning%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520warning%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-success%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-error%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520failure%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                            class="code-snippets"
+                            sandbox="allow-scripts allow-same-origin"
+                        >
+                        </iframe>
+                    </code>
+            </div>
+            <div class="horizontal-div"></div>
+
+            <h2 class="py-1">Nested List</h2>
+            <p class="pb-2">
+                Copy below code and put your desired text and icon and you are good to go.
+            </p>
+            <div class="component-example container">
+                <div class="list-container text-lg">
+                    <div class="list-item"><i class="fas fa-paper-plane list-icon"></i> Sent mail</div>
+                    <div class="list-item"><i class="fas fa-envelope-open list-icon"></i> Drafts</div>
+                    <div class="list-item nested-list">
+                        <div><i class="fas fa-inbox list-icon"></i> Inbox</div>
+                        <div>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                    <div class="list-item-nested"><i class="fas fa-star list-icon"></i> Starred</div>
+                </div>
+            </div>
+            <div class="code-snippet-display">
+                <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520info%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-info%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520primary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520warning%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520warning%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-success%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-error%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520failure%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                            class="code-snippets"
+                            sandbox="allow-scripts allow-same-origin"
+                        >
+                        </iframe>
+                    </code>
+            </div>
+
+            <div class="horizontal-div"></div>
+
+            <h2 class="py-1">Folder List</h2>
+            <p class="pb-2">
+                Copy below code and put your desired text and icon and you are good to go.
+            </p>
+            <div class="component-example container">
+                <div class="folder-list-container text-lg">
+                    <div class="list-item">
+                        <div class="folder-list-icon primary"><i class="fas fa-briefcase"></i></div>
+                        <div class="folder-list-content text-lg">
+                            Work
+                            <div class="list-text-sm text-grey">Jan 9, 2021</div>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <div class="folder-list-icon primary"><i class="fas fa-image"></i></div>
+                        <div class="folder-list-content text-lg">
+                            Photos
+                            <div class="list-text-sm text-grey">Jan 7, 2021</div>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <div class="folder-list-icon primary"><i class="fas fa-umbrella-beach"></i></div>
+                        <div class="folder-list-content text-lg">
+                            Vacation
+                            <div class="list-text-sm text-grey">July 20, 2021</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="code-snippet-display">
+                <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520info%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-info%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520primary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520warning%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520warning%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-success%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-error%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520failure%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                            class="code-snippets"
+                            sandbox="allow-scripts allow-same-origin"
+                        >
+                        </iframe>
+                    </code>
+            </div>
+
+            <div class="horizontal-div"></div>
+
+            <h2 class="py-1">Stacked List (Notification Page)</h2>
+            <p class="pb-2">
+                Copy below code and put your desired text and icon and you are good to go.
+            </p>
+            <div class="component-example container">
+                <div class="folder-list-container text-lg">
+                    <div class="list-item list-bottom-border">
+                        <img src="../images/profile-2.png" alt="profile-photo" class="avatar" />
+                        <div class="folder-list-content">
+                            Brunch this weekend?
+                            <div class="list-text-sm">Ali Connors <span class="text-grey list-notif">- I'll be in your
+                                    neighborhood doing errands this…</span></div>
+                        </div>
+                    </div>
+                    <div class="list-item list-bottom-border">
+                        <img src="../images/profile-1.png" alt="profile-photo" class="avatar" />
+                        <div class="folder-list-content">
+                            Summer BBQ
+                            <div class="list-text-sm">to Scott, Alex, Jennifer <span class="text-grey list-notif">- Wish
+                                    I could come, but I'm out of town this…</span></div>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <img src="../images/profile-3.png" alt="profile-photo" class="avatar" />
+                        <div class="folder-list-content">
+                            Oui Oui
+                            <div class="list-text-sm">Sandra Adams <span class="text-grey list-notif">- Do you have
+                                    Paris recommendations? Have you ever… </span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="code-snippet-display">
+                <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520info%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-info%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520primary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520warning%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520warning%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-success%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-error%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520failure%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                            class="code-snippets"
+                            sandbox="allow-scripts allow-same-origin"
+                        >
+                        </iframe>
+                    </code>
+            </div>
+
+            <div class="component-example container">
+                <div class="text-lg">
+                    <div class="list-item list-notification-item">
+                        <img src="../images/profile-2.png" alt="profile-photo" class="avatar" />
+                        <div class="folder-list-content">
+                            Brunch this weekend?
+                            <div class="list-text-sm">Ali Connors <span class="text-grey list-notif">- I'll be in your
+                                    neighborhood doing errands this…</span></div>
+                        </div>
+                    </div>
+                    <div class="list-item list-notification-item">
+                        <img src="../images/profile-1.png" alt="profile-photo" class="avatar" />
+                        <div class="folder-list-content">
+                            Summer BBQ
+                            <div class="list-text-sm">to Scott, Alex, Jennifer <span class="text-grey list-notif">- Wish
+                                    I could come, but I'm out of town this…</span></div>
+                        </div>
+                    </div>
+                    <div class="list-item list-notification-item">
+                        <img src="../images/profile-3.png" alt="profile-photo" class="avatar" />
+                        <div class="folder-list-content">
+                            Oui Oui
+                            <div class="list-text-sm">Sandra Adams <span class="text-grey list-notif">- Do you have
+                                    Paris recommendations? Have you ever… </span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="code-snippet-display">
+                <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520info%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-info%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520primary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520warning%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520warning%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-success%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-error%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520failure%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                            class="code-snippets"
+                            sandbox="allow-scripts allow-same-origin"
+                        >
+                        </iframe>
+                    </code>
+            </div>
+            <div class="component-example container">
+                <div class="text-lg">
+                    <div class="list-item list-left-border list-notification-item">
+                        <img src="../images/profile-2.png" alt="profile-photo" class="avatar" />
+                        <div class="folder-list-content">
+                            Brunch this weekend?
+                            <div class="list-text-sm">Ali Connors <span class="text-grey list-notif">- I'll be in your
+                                    neighborhood doing errands this…</span></div>
+                        </div>
+                    </div>
+                    <div class="list-item list-left-border list-notification-item">
+                        <img src="../images/profile-1.png" alt="profile-photo" class="avatar" />
+                        <div class="folder-list-content">
+                            Summer BBQ
+                            <div class="list-text-sm">to Scott, Alex, Jennifer <span class="text-grey list-notif">- Wish
+                                    I could come, but I'm out of town this…</span></div>
+                        </div>
+                    </div>
+                    <div class="list-item list-left-border list-notification-item">
+                        <img src=" ../images/profile-3.png" alt="profile-photo" class="avatar" />
+                        <div class="folder-list-content">
+                            Oui Oui
+                            <div class="list-text-sm">Sandra Adams <span class="text-grey list-notif">- Do you have
+                                    Paris recommendations? Have you ever… </span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="code-snippet-display">
+                <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520info%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-info%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520primary%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520warning%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520warning%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-success%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520success%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outline-error%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520failure%2520Alert%2520-%2520Check%2520it%2520now%21%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+                            class="code-snippets"
+                            sandbox="allow-scripts allow-same-origin"
+                        >
+                        </iframe>
+                    </code>
+            </div>
+        </section>
+    </main>
+
+    <footer class="p-1 footer">
+        <p class="text-xs pb-1">Made with ❤️ by Srishti Maurya &copy 2022</p>
+        <ul class="social-media-links-footer">
+            <li class="list-style-none">
+                <a href="https://github.com/srishti-maurya" class="text-success" target="_blank"><i
+                        class="fab fa-github"></i></a>
+            </li>
+            <li class="list-style-none">
+                <a href="https://twitter.com/SrishtiMaurya1?s=09" class="text-success" target="_blank"><i
+                        class="fab fa-twitter"></i></a>
+            </li>
+            <li class="list-style-none">
+                <a href="https://www.linkedin.com/in/mauryasrishti22/" class="text-success" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+            </li>
+        </ul>
+    </footer>
+    <script type="text/javascript" src="../main.js"></script>
+</body>
+
+</html>

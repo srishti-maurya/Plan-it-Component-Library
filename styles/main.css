@@ -11,6 +11,7 @@
 @import url(./input.css);
 @import url(./button.css);
 @import url(./utils.css);
+@import url(./lists.css);
 @import url(../index.css);
 
 /* reset css */
@@ -60,10 +61,6 @@ i {
   cursor: pointer;
 }
 
-li {
-  list-style-type: none;
-}
-
 /* global classes */
 
 .container {
@@ -76,4 +73,8 @@ li {
 .active-link {
   color: var(--secondary-dark-variant);
   font-weight: bold;
+}
+
+.list-style-none {
+  list-style-type: none;
 }

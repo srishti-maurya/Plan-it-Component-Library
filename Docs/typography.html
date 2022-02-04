@@ -14,13 +14,17 @@
 <body>
     <!-- navigation -->
     <nav class="nav">
+        <div class="logo-small-screen">
+            <a href="../index.html">
+                <img src="../images/logo.png" alt="logo" class="nav-logo" /></a>
+        </div>
         <ul class="nav-links">
             <li>
-                <a href="index.html">
+                <a href="../index.html">
                     <img src="../images/logo.png" alt="logo" class="nav-logo" /></a>
             </li>
             <li>
-                <a href="index.html">Home</a>
+                <a href="../index.html">Home</a>
             </li>
             <li>
                 <a href="./introduction.html">Documentation</a>
@@ -35,6 +39,48 @@
                         class="fab fa-linkedin-in"></i></a></i></li>
         </ul>
     </nav>
+
+    <!-- responsive section -->
+    <div class="sidebar-toggle-container">
+        <button class="sidebar-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+    <section class="sidebar">
+        <div class="sidebar-header">
+            <img src="../images/logo.png" class="nav-logo" alt="logo" />
+            <button class="close-btn"><i class="fas fa-times"></i></button>
+        </div>
+        <ul class="sidebar-nav-links text-lg f-bold">
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+            <li>
+                <a href="../Docs/introduction.html">Documentation</a>
+            </li>
+        </ul>
+        <aside class="sidebar-aside">
+            <h2 class="text-xl text-primary-variant">Get started</h2>
+            <div class="horizontal-div"></div>
+            <div class="docs-sub-container">
+                <a href="./introduction.html" class="docs-link ">Introduction</a>
+                <a href="./colors.html" class="docs-link">Colors</a>
+                <a href="./typography.html" class="docs-link active-link">Typography</a>
+                <a href="./conclusion.html" class="docs-link">Conclusion</a>
+            </div>
+            <h2 class="text-xl text-primary-variant">Components</h2>
+            <div class="horizontal-div"></div>
+            <div class="docs-sub-container">
+                <a href="../components/avatar.html" class="docs-link">Avatar</a>
+                <a href="../components/alert.html" class="docs-link">Alert</a>
+                <a href="../components/badge.html" class="docs-link">Badge</a>
+                <a href="../components/button.html" class="docs-link">Button</a>
+                <a href="../components/card.html" class="docs-link">Card</a>
+                <a href="../components/images.html" class="docs-link">Image</a>
+                <a href="../components/input.html" class="docs-link">Input</a>
+            </div>
+        </aside>
+    </section>
 
     <!-- section -->
     <main class="docs-container">
@@ -182,7 +228,7 @@
                 alignments
             </p>
             <div class="container component-example mb-2">
-                <div class="text-center secondary mx-1 p-5px">
+                <div class="text-center secondary m-1 p-1">
                     <p class="text-xl text-grey">Text align center</p>
                     <div class="text-base text-primary">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius,
@@ -191,7 +237,7 @@
                         reprehenderit quibusdam commodi hic nulla.
                     </div>
                 </div>
-                <div class="text-left secondary mx-1 p-5px">
+                <div class="text-left secondary m-1 p-1">
                     <p class="text-xl text-grey">Text align left</p>
                     <div class="text-base text-primary">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius,
@@ -200,7 +246,7 @@
                         reprehenderit quibusdam commodi hic nulla.
                     </div>
                 </div>
-                <div class="text-right secondary mx-1 p-5px">
+                <div class="text-right secondary m-1 p-1">
                     <p class="text-xl text-grey">Text align right</p>
                     <div class="text-base text-primary">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius,
@@ -209,7 +255,7 @@
                         reprehenderit quibusdam commodi hic nulla.
                     </div>
                 </div>
-                <div class="text-justify secondary mx-1 p-5px">
+                <div class="text-justify secondary m-1 p-1">
                     <p class="text-xl text-grey">Text align justify</p>
                     <div class="text-base text-primary">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius,
@@ -251,9 +297,9 @@
     </main>
 
     <!-- footer -->
-    <footer class="p-5px footer">
-        <p class="text-xs pb-5px">Made with ❤️ by Srishti Maurya &copy 2022</p>
-        <ul class="social-media-links">
+    <footer class="p-1 footer">
+        <p class="text-xs pb-1">Made with ❤️ by Srishti Maurya &copy 2022</p>
+        <ul class="social-media-links-footer">
             <li><a href="https://github.com/srishti-maurya" class="text-success" target="_blank"><i
                         class="fab fa-github"></i></a></i></li>
             <li><a href="https://twitter.com/SrishtiMaurya1?s=09" class="text-success" target="_blank"><i
@@ -262,6 +308,8 @@
                         class="fab fa-linkedin-in"></i></a></i></li>
         </ul>
     </footer>
+
+    <script type="text/javascript" src="../main.js"></script>
 </body>
 
 </html>

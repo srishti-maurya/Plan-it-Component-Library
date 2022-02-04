@@ -101,3 +101,57 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
+/* media query */
+@media (max-width: 1205px) {
+  .vertical-card-display-third {
+    display: none;
+  }
+}
+
+@media (max-width: 950px) {
+  .card-container-vertical {
+    width: 200px;
+  }
+  .card-container-horizontal {
+    height: 200px;
+  }
+  .card-sold-by,
+  .card-category-title {
+    display: none;
+  }
+  .card-overlay-text {
+    top: 35%;
+  }
+}
+
+@media (max-width: 875px) {
+  .card-container-horizontal {
+    height: 170px;
+  }
+  .card-desc {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-container-horizontal {
+    height: 150px;
+  }
+}
+
+@media (max-width: 580px) {
+  .card-container-horizontal,
+  .horizontal-card-component-example {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .vertical-card-display {
+    display: none;
+  }
+  .vertical-card-display-third {
+    display: none;
+  }
+}

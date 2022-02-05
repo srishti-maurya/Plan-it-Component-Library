@@ -1,0 +1,153 @@
+.list-component-example-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.styled-list li:not(:last-child) {
+  padding-bottom: 0.4rem;
+}
+
+.list-style-circle {
+  list-style-type: circle;
+}
+
+.list-style-square {
+  list-style-type: square;
+}
+
+.list-style-lowercase {
+  list-style-type: lower-alpha;
+}
+
+.list-style-uppercase {
+  list-style-type: upper-alpha;
+}
+
+.list-style-lowercase-roman {
+  list-style-type: lower-roman;
+}
+
+.list-style-uppercase-roman {
+  list-style-type: upper-roman;
+}
+
+.styled-list ol {
+  padding-left: 1.5rem;
+}
+
+.list-inline {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list-style-icon i {
+  padding: 0 0.8rem 0;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  background-color: var(--background);
+  width: 40%;
+  padding: 1rem 0;
+}
+
+.list-item {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.list-item-nested {
+  padding: 0.5rem 2rem;
+}
+
+.list-item:hover,
+.list-item-nested:hover {
+  background-color: var(--background-variant);
+}
+
+.list-icon {
+  padding: 0 1rem;
+}
+
+.list-horizontal-div {
+  border-bottom: 1px solid var(--dark);
+}
+
+.nested-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.folder-list-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: var(--background);
+  width: 40%;
+}
+
+.folder-list-icon {
+  padding: 1rem;
+  height: 3vh;
+  width: 3vh;
+  border-radius: 50%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+.folder-list-content {
+  padding-left: 1rem;
+}
+
+.list-text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.list-left-border {
+  border-left: 3px solid var(--primary);
+}
+.list-bottom-border {
+  border-bottom: 1px solid var(--primary);
+}
+
+.list-notification-item {
+  background-color: var(--background);
+  margin: 1rem 0;
+}
+/* media queries */
+
+@media (max-width: 580px) {
+  .list-container,
+  .folder-list-container {
+    width: 60%;
+  }
+  .list-text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .list-container,
+  .folder-list-container {
+    width: 90%;
+  }
+  .list-item-nested {
+    padding: 0.5rem 1rem;
+  }
+  .list-notif {
+    display: none;
+  }
+  .list-component-example-container {
+    gap: 0.5rem;
+  }
+}

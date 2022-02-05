@@ -135,6 +135,7 @@
 .component-example {
   border: 1px solid var(--background);
   padding: 0.5rem;
+  box-sizing: border-box;
 }
 
 /* code-snippets */
@@ -275,6 +276,13 @@
 .sidebar-toggle-container {
   display: none;
 }
+
+/* list-container */
+.styled-list-bg {
+  background-color: var(--background);
+  padding: 0.5rem 1.8rem;
+}
+
 /* media queries */
 
 @media (max-width: 875px) {

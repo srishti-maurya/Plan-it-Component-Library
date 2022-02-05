@@ -15,28 +15,32 @@
   <!-- navigation -->
   <nav class="nav">
     <div class="logo-small-screen">
-      <a href="../index.html">
-        <img src="../images/logo.png" alt="logo" class="nav-logo" /></a>
+      <a href="../index.html"> <img src="../images/logo.png" alt="logo" class="nav-logo" /></a>
     </div>
     <ul class="nav-links">
-      <li>
-        <a href="../index.html">
-          <img src="../images/logo.png" alt="logo" class="nav-logo" /></a>
+      <li class="list-style-none">
+        <a href="../index.html"> <img src="../images/logo.png" alt="logo" class="nav-logo" /></a>
       </li>
-      <li>
+      <li class="list-style-none">
         <a href="../index.html">Home</a>
       </li>
-      <li>
+      <li class="list-style-none">
         <a href="../Docs/introduction.html">Documentation</a>
       </li>
     </ul>
     <ul class="social-media-links">
-      <li><a href="https://github.com/srishti-maurya" class="text-primary" target="_blank"><i
-            class="fab fa-github"></i></a></i></li>
-      <li><a href="https://twitter.com/SrishtiMaurya1?s=09" class="text-primary" target="_blank"><i
-            class="fab fa-twitter"></i></a></i></li>
-      <li><a href="https://www.linkedin.com/in/mauryasrishti22/" class="text-primary" target="_blank"><i
-            class="fab fa-linkedin-in"></i></a></i></li>
+      <li class="list-style-none">
+        <a href="https://github.com/srishti-maurya" class="text-primary" target="_blank"><i
+            class="fab fa-github"></i></a>
+      </li>
+      <li class="list-style-none">
+        <a href="https://twitter.com/SrishtiMaurya1?s=09" class="text-primary" target="_blank"><i
+            class="fab fa-twitter"></i></a>
+      </li>
+      <li class="list-style-none">
+        <a href="https://www.linkedin.com/in/mauryasrishti22/" class="text-primary" target="_blank"><i
+            class="fab fa-linkedin-in"></i></a>
+      </li>
     </ul>
   </nav>
 
@@ -48,14 +52,15 @@
   </div>
   <section class="sidebar">
     <div class="sidebar-header">
-      <img src="../images/logo.png" class="nav-logo" alt="logo" />
+      <a href="../index.html">
+        <img src="../images/logo.png" class="nav-logo" alt="logo" /></a>
       <button class="close-btn"><i class="fas fa-times"></i></button>
     </div>
     <ul class="sidebar-nav-links text-lg f-bold">
-      <li>
+      <li class="list-style-none">
         <a href="../index.html">Home</a>
       </li>
-      <li>
+      <li class="list-style-none">
         <a href="../Docs/introduction.html">Documentation</a>
       </li>
     </ul>
@@ -63,7 +68,7 @@
       <h2 class="text-xl text-primary-variant">Get started</h2>
       <div class="horizontal-div"></div>
       <div class="docs-sub-container">
-        <a href="../Docs/introduction.html" class="docs-link ">Introduction</a>
+        <a href="../Docs/introduction.html" class="docs-link">Introduction</a>
         <a href="../Docs/colors.html" class="docs-link">Colors</a>
         <a href="../Docs/typography.html" class="docs-link">Typography</a>
         <a href="../Docs/conclusion.html" class="docs-link">Conclusion</a>
@@ -78,6 +83,7 @@
         <a href="../components/card.html" class="docs-link">Card</a>
         <a href="../components/images.html" class="docs-link">Image</a>
         <a href="../components/input.html" class="docs-link">Input</a>
+        <a href="../components/lists.html" class="docs-link">Lists</a>
       </div>
     </aside>
   </section>
@@ -103,6 +109,7 @@
         <a href="./card.html" class="docs-link">Card</a>
         <a href="./images.html" class="docs-link">Image</a>
         <a href="./input.html" class="docs-link">Input</a>
+        <a href="./lists.html" class="docs-link">Lists</a>
       </div>
     </aside>
 
@@ -116,10 +123,10 @@
       <h2 class="py-1">Status Badge</h2>
       <p class="pb-2">
         To use status badge add class name
-        <span class="text-secondary">badge</span>to a div tag which is inside
-        a div with a class name
-        <span class="text-secondary">badge-container</span>along with an
-        avatar component. For different status add class name accordingly
+        <span class="text-secondary">badge</span>to a div tag which is inside a div with a class name <span
+          class="text-secondary">badge-container</span>along with an avatar component. For different status add class
+        name
+        accordingly
         <span class="text-secondary">success, offline, error.</span>
       </p>
 
@@ -143,23 +150,22 @@
       </div>
       <div class="code-snippet-display">
         <code>
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fprofile-1.png%2522%2520alt%253D%2522profile-photo%2522%2520class%253D%2522avatar%2520avatar-sm%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520success%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fprofile-2.png%2522%2520alt%253D%2522profile-photo%2522%2520class%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520success%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fprofile-3.png%2522%2520alt%253D%2522profile-photo%2522%2520class%253D%2522avatar%2520avatar-md%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520offline%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fprofile-4.png%2522%2520alt%253D%2522profile-photo%2522%2520class%253D%2522avatar%2520avatar-lg%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520error%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-              class="code-snippets"
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fprofile-1.png%2522%2520alt%253D%2522profile-photo%2522%2520class%253D%2522avatar%2520avatar-sm%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520success%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fprofile-2.png%2522%2520alt%253D%2522profile-photo%2522%2520class%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520success%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fprofile-3.png%2522%2520alt%253D%2522profile-photo%2522%2520class%253D%2522avatar%2520avatar-md%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520offline%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fimages%252Fprofile-4.png%2522%2520alt%253D%2522profile-photo%2522%2520class%253D%2522avatar%2520avatar-lg%2522%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520error%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                            class="code-snippets"
+                            sandbox="allow-scripts allow-same-origin"
+                        >
+                        </iframe>
+                    </code>
       </div>
       <div class="horizontal-div"></div>
 
       <h2 class="py-1">Icon Badge</h2>
       <p class="pb-2">
         To use icon badge add class name
-        <span class="text-secondary">badge-icon</span>to a div tag which is
-        inside a div with a class name
-        <span class="text-secondary">badge-container</span> along with an
-        icon. For different status add class names accordingly
+        <span class="text-secondary">badge-icon</span>to a div tag which is inside a div with a class name <span
+          class="text-secondary">badge-container</span> along with an icon. For different status add class names
+        accordingly
         <span class="text-secondary">success, offline, error.</span>
       </p>
 
@@ -186,22 +192,21 @@
       </div>
       <div class="code-snippet-display">
         <code>
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Ci%2520class%253D%2522fas%2520fa-folder%2520fa-3x%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon%2520success%2522%253E6%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Ci%2520class%253D%2522fas%2520fa-bell%2520fa-2x%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon%2520offline%2522%253E18%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Ci%2520class%253D%2522fas%2520fa-home%2520fa-2x%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon%2520error%2522%253E99%252B%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Ci%2520class%253D%2522fas%2520fa-home%2520fa-3x%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon%2520success%2522%253E522%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-              class="code-snippets"
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Ci%2520class%253D%2522fas%2520fa-folder%2520fa-3x%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon%2520success%2522%253E6%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Ci%2520class%253D%2522fas%2520fa-bell%2520fa-2x%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon%2520offline%2522%253E18%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Ci%2520class%253D%2522fas%2520fa-home%2520fa-2x%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon%2520error%2522%253E99%252B%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Ci%2520class%253D%2522fas%2520fa-home%2520fa-3x%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon%2520success%2522%253E522%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                            class="code-snippets"
+                            sandbox="allow-scripts allow-same-origin"
+                        >
+                        </iframe>
+                    </code>
       </div>
       <div class="horizontal-div"></div>
 
       <h2 class="py-1">Text Badge</h2>
       <p class="pb-2">
         To use text badge add class name
-        <span class="text-secondary">badge-text</span> use class name
-        <span class="text-secondary">badge-round-pill</span>for rounded pill
-        badge.
+        <span class="text-secondary">badge-text</span> use class name <span
+          class="text-secondary">badge-round-pill</span>for rounded pill badge.
       </p>
 
       <div class="component-example">
@@ -220,13 +225,13 @@
       </div>
       <div class="code-snippet-display">
         <code>
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Ch2%253EExample%2520of%2520Heading%2520with%2520Badge%2520%253Cspan%2520class%253D%2522badge-text%2520primary%2522%253ENew%253C%252Fspan%253E%253C%252Fh2%253E%250A%2509%253Ch3%253EExample%2520of%2520Heading%2520with%2520Badge%2520%253Cspan%2520class%253D%2522badge-text%2520secondary%2520badge-round-pill%2522%253ENew%253C%252Fspan%253E%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cp%253EExample%2520of%2520paragraph%2520with%2520Badge%2520%253Cspan%2520class%253D%2522badge-text%2520secondary%2522%253ENew%253C%252Fspan%253E%253C%252Fp%253E"
-              class="code-snippets"
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Ch2%253EExample%2520of%2520Heading%2520with%2520Badge%2520%253Cspan%2520class%253D%2522badge-text%2520primary%2522%253ENew%253C%252Fspan%253E%253C%252Fh2%253E%250A%2509%253Ch3%253EExample%2520of%2520Heading%2520with%2520Badge%2520%253Cspan%2520class%253D%2522badge-text%2520secondary%2520badge-round-pill%2522%253ENew%253C%252Fspan%253E%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cp%253EExample%2520of%2520paragraph%2520with%2520Badge%2520%253Cspan%2520class%253D%2522badge-text%2520secondary%2522%253ENew%253C%252Fspan%253E%253C%252Fp%253E"
+                            class="code-snippets"
+                            sandbox="allow-scripts allow-same-origin"
+                        >
+                        </iframe>
+                    </code>
       </div>
     </section>
   </main>
@@ -235,12 +240,18 @@
   <footer class="p-1 footer">
     <p class="text-xs pb-1">Made with ❤️ by Srishti Maurya &copy 2022</p>
     <ul class="social-media-links-footer">
-      <li><a href="https://github.com/srishti-maurya" class="text-success" target="_blank"><i
-            class="fab fa-github"></i></a></i></li>
-      <li><a href="https://twitter.com/SrishtiMaurya1?s=09" class="text-success" target="_blank"><i
-            class="fab fa-twitter"></i></a></i></li>
-      <li><a href="https://www.linkedin.com/in/mauryasrishti22/" class="text-success" target="_blank"><i
-            class="fab fa-linkedin-in"></i></a></i></li>
+      <li class="list-style-none">
+        <a href="https://github.com/srishti-maurya" class="text-success" target="_blank"><i
+            class="fab fa-github"></i></a>
+      </li>
+      <li class="list-style-none">
+        <a href="https://twitter.com/SrishtiMaurya1?s=09" class="text-success" target="_blank"><i
+            class="fab fa-twitter"></i></a>
+      </li>
+      <li class="list-style-none">
+        <a href="https://www.linkedin.com/in/mauryasrishti22/" class="text-success" target="_blank"><i
+            class="fab fa-linkedin-in"></i></a>
+      </li>
     </ul>
   </footer>
   <script type="text/javascript" src="../main.js"></script>

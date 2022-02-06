@@ -1,0 +1,33 @@
+.slide {
+  width: 40vw;
+}
+
+.slide input[type="range"] {
+  width: 100%;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.slider-icon {
+  display: flex;
+  align-items: center;
+}
+
+.slide input[type="range"] {
+  -webkit-appearance: none;
+}
+
+.slide input[type="range"]::-webkit-slider-runnable-track {
+  height: 15px;
+  background: var(--background);
+  border-radius: 5px;
+}
+
+.slide input[type="range"]::-webkit-slider-thumb {
+  height: 30px;
+  width: 15px;
+  border-radius: 5px;
+  background: var(--primary);
+  -webkit-appearance: none;
+  margin-top: -6px;
+}

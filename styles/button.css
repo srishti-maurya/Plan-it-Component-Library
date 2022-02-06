@@ -1,12 +1,3 @@
-/* media query */
-
-@media (max-width: 950px) {
-  .btn {
-    font-size: 0.6rem;
-    padding: 0.7rem 1rem;
-  }
-}
-
 /* button classes */
 
 .btn {

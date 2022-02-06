@@ -12,6 +12,10 @@
 @import url(./button.css);
 @import url(./utils.css);
 @import url(./lists.css);
+@import url(./toasts.css);
+@import url(./ratings.css);
+@import url(./modal.css);
+@import url(./slider.css);
 @import url(../index.css);
 
 /* reset css */
@@ -40,21 +44,6 @@ img {
 
 span {
   margin-right: 0.4rem;
-}
-
-input {
-  margin: 0.5rem;
-  padding: 0.5rem;
-  border: 1px solid var(--primary);
-  border-radius: 5px;
-}
-
-input:hover {
-  border: 1px solid var(--secondary);
-}
-
-input:focus {
-  border: 2px solid var(--secondary-dark-variant);
 }
 
 i {

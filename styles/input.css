@@ -1,3 +1,18 @@
+.label-input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid var(--primary);
+  border-radius: 5px;
+}
+
+.label-input:hover {
+  border: 1px solid var(--secondary);
+}
+
+.label-input:focus {
+  border: 2px solid var(--secondary-dark-variant);
+}
+
 .input-container {
   width: 50%;
   background-color: var(--light);

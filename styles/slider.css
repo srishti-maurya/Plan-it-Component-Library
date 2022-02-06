@@ -8,19 +8,24 @@
   cursor: pointer;
 }
 
-input[type="range"] {
+.slider-icon {
+  display: flex;
+  align-items: center;
+}
+
+.slide input[type="range"] {
   -webkit-appearance: none;
 }
 
-input[type="range"]::-webkit-slider-runnable-track {
+.slide input[type="range"]::-webkit-slider-runnable-track {
   height: 15px;
   background: var(--background);
   border-radius: 5px;
 }
 
-input[type="range"]::-webkit-slider-thumb {
-  height: 4vh;
-  width: 1.5vw;
+.slide input[type="range"]::-webkit-slider-thumb {
+  height: 30px;
+  width: 15px;
   border-radius: 5px;
   background: var(--primary);
   -webkit-appearance: none;

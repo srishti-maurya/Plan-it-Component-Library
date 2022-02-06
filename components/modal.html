@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Plan it, Use it | Rating</title>
+    <title>Plan it, Use it | Modal</title>
     <link rel="stylesheet" href="../styles/main.css" />
     <!-- font awesome icons-->
     <script src="https://kit.fontawesome.com/692dfd03ca.js" crossorigin="anonymous"></script>
@@ -84,13 +84,12 @@
                 <a href="../components/input.html" class="docs-link">Input</a>
                 <a href="../components/lists.html" class="docs-link">Lists</a>
                 <a href="../components/toasts.html" class="docs-link">Toasts</a>
-                <a href="../components/ratings.html" class="docs-link active-link">Ratings</a>
-                <a href="../components/modal.html" class="docs-link">Modal</a>
+                <a href="../components/ratings.html" class="docs-link">Ratings</a>
+                <a href="../components/modal.html" class="docs-link active-link">Modal</a>
                 <a href="../components/slider.html" class="docs-link">Slider</a>
             </div>
         </aside>
     </section>
-
     <!-- section -->
     <main class="docs-container">
         <aside class="docs-aside">
@@ -114,44 +113,61 @@
                 <a href="./input.html" class="docs-link">Input</a>
                 <a href="./lists.html" class="docs-link">Lists</a>
                 <a href="./toasts.html" class="docs-link">Toasts</a>
-                <a href="./ratings.html" class="docs-link active-link">Rating</a>
-                <a href="./modal.html" class="docs-link">Modal</a>
+                <a href="./ratings.html" class="docs-link">Rating</a>
+                <a href="./modal.html" class="docs-link active-link">Modal</a>
                 <a href="./slider.html" class="docs-link">Slider</a>
             </div>
         </aside>
 
         <section class="components">
-            <h1 class="text-5xl py-2 text-primary-variant">Rating component</h1>
+            <h1 class="text-5xl py-2 text-primary-variant">Modal component</h1>
             <p class="pb-2">
-                These rating components can be used as read-only badge or in reviews section.
+                Modals focus the user's attention exclusively on one task or piece of information via a window that sits
+                on top of the page content.
             </p>
             <div class="horizontal-div"></div>
 
-            <h2 class="py-1">Rating</h2>
+            <h2 class="py-1">Modal</h2>
             <p class="pb-2">
-                Copy below code and put your desired text and icon and you are ready to use the rating component.
+                Copy below code and put your desired text and you are ready to use the rating component.
             </p>
             <div class="component-example toast-display-container">
-                <div class="rating-container">
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
+                <div class="modal modal-interstitial modal-disabled">
+                    <div class="modal-container p-5">
+                        <button class="modal-close-btn"><i class="fas fa-times fa-2x close-modal-btn"></i></button>
+                        <div class="text-3xl pb-2">
+                            Exclusive offers
+                        </div>
+                        <div class="pb-2 center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel delectus
+                            voluptatibus nesciunt mollitia ad, recusandae, dolore maxime soluta quis modi non repellat?
+                            Rerum facere saepe velit fugit sit nisi veniam.
+                        </div>
+                        <div>
+                            <button class="btn outline-secondary close-modal-btn">Go Back</button>
+                            <button class="btn primary">Shop now</button>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <i class="fa fa-star checked"></i><span class="text-lg"> 5</span>
+
+                <div class="modal-container p-5">
+                    <button class="modal-close-btn"><i class="fas fa-times fa-2x"></i></button>
+                    <div class="text-3xl pb-2">
+                        Exclusive offers
+                    </div>
+                    <div class="pb-2 center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel delectus
+                        voluptatibus nesciunt mollitia ad, recusandae, dolore maxime soluta quis modi non repellat?
+                        Rerum facere saepe velit fugit sit nisi veniam.
+                    </div>
+                    <div>
+                        <button class="btn outline-secondary">Go Back</button>
+                        <button class="btn primary">Shop now</button>
+                    </div>
                 </div>
-                <div>
-                    <i class="fa fa-star checked"></i><span class="text-lg"> 5/5</span>
-                </div>
-                <div class="light rating-bg">
-                    <span class="text-lg">5 <i class="fa fa-star checked"></i> |5</span>
-                </div>
+                <button class="btn btn-text-primary open-modal-btn">Live modal demo</button>
             </div>
             <div class="code-snippet-display">
                 <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fi%253E%253Cspan%2520class%253D%2522text-lg%2522%253E%25205%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fi%253E%253Cspan%2520class%253D%2522text-lg%2522%253E%25205%252F5%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522light%2520rating-bg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-lg%2522%253E5%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fi%253E%2520%257C5%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal%2520modal-interstitial%2520modal-disabled%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-container%2520p-5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522modal-close-btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2520fa-2x%2520close-modal-btn%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-3xl%2520pb-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Exclusive%2520offers%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522pb-2%2520center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Vel%2520delectus%2520voluptatibus%2520nesciunt%2520mollitia%2520ad%252C%2520%2509%2509%2520%2520%2520recusandae%252C%2520dolore%2520maxime%2520soluta%2520quis%2520modi%2520non%2520repellat%253F%2520Rerum%2520facere%2520saepe%2520velit%2520fugit%2520sit%2520nisi%2520veniam.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-secondary%2520close-modal-btn%2522%253EGo%2520Back%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary%2522%253EShop%2520now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                     class="code-snippets" sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </div>
@@ -177,6 +193,7 @@
         </ul>
     </footer>
     <script type="text/javascript" src="../main.js"></script>
+    <script type="text/javascript" src="../JS/modal.js"></script>
 </body>
 
 </html>

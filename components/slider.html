@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Plan it, Use it | Rating</title>
+    <title>Plan it, Use it | Slider</title>
     <link rel="stylesheet" href="../styles/main.css" />
     <!-- font awesome icons-->
     <script src="https://kit.fontawesome.com/692dfd03ca.js" crossorigin="anonymous"></script>
@@ -87,6 +87,7 @@
                 <a href="../components/ratings.html" class="docs-link active-link">Ratings</a>
                 <a href="../components/modal.html" class="docs-link">Modal</a>
                 <a href="../components/slider.html" class="docs-link">Slider</a>
+                <a href="../components/slider.html" class="docs-link">Slider</a>
             </div>
         </aside>
     </section>
@@ -114,14 +115,14 @@
                 <a href="./input.html" class="docs-link">Input</a>
                 <a href="./lists.html" class="docs-link">Lists</a>
                 <a href="./toasts.html" class="docs-link">Toasts</a>
-                <a href="./ratings.html" class="docs-link active-link">Rating</a>
+                <a href="./ratings.html" class="docs-link">Rating</a>
                 <a href="./modal.html" class="docs-link">Modal</a>
-                <a href="./slider.html" class="docs-link">Slider</a>
+                <a href="./slider.html" class="docs-link active-link">Slider</a>
             </div>
         </aside>
 
         <section class="components">
-            <h1 class="text-5xl py-2 text-primary-variant">Rating component</h1>
+            <h1 class="text-5xl py-2 text-primary-variant">Slider component</h1>
             <p class="pb-2">
                 These rating components can be used as read-only badge or in reviews section.
             </p>
@@ -131,27 +132,32 @@
             <p class="pb-2">
                 Copy below code and put your desired text and icon and you are ready to use the rating component.
             </p>
-            <div class="component-example toast-display-container">
-                <div class="rating-container">
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star checked"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
+            <div class="component-example toast-display-container ">
+
+                <div class="slide">
+                    <span class="text-lg">Simple slider</span>
+                    <input type="range" min="0" max="100">
                 </div>
-                <div>
-                    <i class="fa fa-star checked"></i><span class="text-lg"> 5</span>
-                </div>
-                <div>
-                    <i class="fa fa-star checked"></i><span class="text-lg"> 5/5</span>
-                </div>
-                <div class="light rating-bg">
-                    <span class="text-lg">5 <i class="fa fa-star checked"></i> |5</span>
+                <div class="slide ">
+                    <span class="text-lg">Step slider</span>
+                    <input type="range" list="steplist" min="500" max="5000" step="500">
+                    <datalist id="steplist">
+                        <option value="500" label="500"></option>
+                        <option value="1000"></option>
+                        <option value="1500"></option>
+                        <option value="2000"></option>
+                        <option value="2500"></option>
+                        <option value="3000"></option>
+                        <option value="3500"></option>
+                        <option value="4000"></option>
+                        <option value="4500"></option>
+                        <option value="5000"></option>
+                    </datalist>
                 </div>
             </div>
             <div class="code-snippet-display">
                 <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fi%253E%253Cspan%2520class%253D%2522text-lg%2522%253E%25205%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fi%253E%253Cspan%2520class%253D%2522text-lg%2522%253E%25205%252F5%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522light%2520rating-bg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-lg%2522%253E5%2520%253Ci%2520class%253D%2522fa%2520fa-star%2520checked%2522%253E%253C%252Fi%253E%2520%257C5%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slide%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slide%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522range%2522%2520list%253D%2522steplist%2522%2520min%253D%2522500%2522%2520max%253D%25225000%2522%2520step%253D%2522500%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdatalist%2520id%253D%2522steplist%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522500%2522%2520label%253D%2522500%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%25221000%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%25221500%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%25222000%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%25222500%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%25223000%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%25223500%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%25224000%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%25224500%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%25225000%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdatalist%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
                     class="code-snippets" sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </div>

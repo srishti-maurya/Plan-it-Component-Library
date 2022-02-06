@@ -83,6 +83,9 @@
         <a href="../components/card.html" class="docs-link">Card</a>
         <a href="../components/images.html" class="docs-link">Image</a>
         <a href="../components/input.html" class="docs-link active-link">Input</a>
+        <a href="../components/lists.html" class="docs-link">Lists</a>
+        <a href="../components/toasts.html" class="docs-link">Toasts</a>
+        <a href="../components/ratings.html" class="docs-link">Ratings</a>
       </div>
     </aside>
   </section>
@@ -109,6 +112,9 @@
         <a href="./card.html" class="docs-link">Card</a>
         <a href="./images.html" class="docs-link">Image</a>
         <a href="./input.html" class="docs-link active-link">Input</a>
+        <a href="./lists.html" class="docs-link">Lists</a>
+        <a href="./toasts.html" class="docs-link">Toasts</a>
+        <a href="./ratings.html" class="docs-link">Ratings</a>
       </div>
     </aside>
 
@@ -140,14 +146,12 @@
         </div>
       </div>
       <div class="code-snippet-display">
-        <code>
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-text-group%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253EUsername%2520*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520username%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-text-group%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522text-error%2522%253EPassword%2520*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520type%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520username%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522input-error%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-error%2522%253EWrong%2520Password.%2520Try%2520again.%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
-                            class="code-snippets"
-                            sandbox="allow-scripts allow-same-origin"
-                        >
-                        </iframe>
-                    </code>
+
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-text-group%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%253EUsername%2520*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520username%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-text-group%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520class%253D%2522text-error%2522%253EPassword%2520*%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520type%253D%2522password%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520username%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522input-error%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-error%2522%253EWrong%2520Password.%2520Try%2520again.%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
+          class="code-snippets" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
       </div>
     </section>
   </main>

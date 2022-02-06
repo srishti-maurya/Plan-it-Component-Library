@@ -84,6 +84,8 @@
         <a href="../components/images.html" class="docs-link">Image</a>
         <a href="../components/input.html" class="docs-link">Input</a>
         <a href="../components/lists.html" class="docs-link">Lists</a>
+        <a href="../components/toasts.html" class="docs-link">Toasts</a>
+        <a href="../components/ratings.html" class="docs-link">Ratings</a>
       </div>
     </aside>
   </section>
@@ -110,6 +112,8 @@
         <a href="./images.html" class="docs-link">Image</a>
         <a href="./input.html" class="docs-link">Input</a>
         <a href="./lists.html" class="docs-link">Lists</a>
+        <a href="./toasts.html" class="docs-link">Toasts</a>
+        <a href="./ratings.html" class="docs-link">Rating</a>
       </div>
     </aside>
 
@@ -140,14 +144,12 @@
         <button class="btn dark">dark</button>
       </div>
       <div class="code-snippet-display">
-        <code>
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253Edefault%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520info%2522%253Eprimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520secondary%2522%253Esecondary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520error%2522%253Eerror%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520success%2522%253Esuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520light%2522%253Elight%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520dark%2522%253Edark%253C%252Fbutton%253E"
-                            class="code-snippets"
-                            sandbox="allow-scripts allow-same-origin"
-                        >
-                        </iframe>
-                    </code>
+
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2522%253Edefault%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520info%2522%253Eprimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520secondary%2522%253Esecondary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520error%2522%253Eerror%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520success%2522%253Esuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520light%2522%253Elight%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520dark%2522%253Edark%253C%252Fbutton%253E"
+          class="code-snippets" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
       </div>
       <div class="horizontal-div"></div>
 
@@ -169,14 +171,12 @@
         <button class="btn outline-dark">dark</button>
       </div>
       <div class="code-snippet-display">
-        <code>
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline%2522%253Edefault%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-info%2522%253Eprimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-secondary%2522%253Esecondary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-error%2522%253Eerror%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-success%2522%253Esuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-light%2522%253Elight%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-dark%2522%253Edark%253C%252Fbutton%253E"
-                            class="code-snippets"
-                            sandbox="allow-scripts allow-same-origin"
-                        >
-                        </iframe>
-                    </code>
+
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline%2522%253Edefault%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-info%2522%253Eprimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-secondary%2522%253Esecondary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-error%2522%253Eerror%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-success%2522%253Esuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-light%2522%253Elight%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-dark%2522%253Edark%253C%252Fbutton%253E"
+          class="code-snippets" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
       </div>
       <div class="horizontal-div"></div>
 
@@ -195,14 +195,12 @@
         </button>
       </div>
       <div class="code-snippet-display">
-        <code>
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cbutton%2520class%253D%2522btn%2520btn-link-light%2522%253E%253Ca%2520href%253D%2522%2523%2522%253Elink%253C%252Fa%253E%253C%252Fbutton%253E%250A%2509%253Cbutton%2520class%253D%2522btn%2520btn-link-dark%2520info%2522%253E%253Ca%2520href%253D%2522%2523%2522%253Elink%253C%252Fa%253E%253C%252Fbutton%253E"
-                            class="code-snippets"
-                            sandbox="allow-scripts allow-same-origin"
-                        >
-                        </iframe>
-                    </code>
+
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cbutton%2520class%253D%2522btn%2520btn-link-light%2522%253E%253Ca%2520href%253D%2522%2523%2522%253Elink%253C%252Fa%253E%253C%252Fbutton%253E%250A%2509%253Cbutton%2520class%253D%2522btn%2520btn-link-dark%2520info%2522%253E%253Ca%2520href%253D%2522%2523%2522%253Elink%253C%252Fa%253E%253C%252Fbutton%253E"
+          class="code-snippets" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
       </div>
       <div class="horizontal-div"></div>
 
@@ -217,14 +215,12 @@
         <button class="btn btn-text-secondary">secondary</button>
       </div>
       <div class="code-snippet-display">
-        <code>
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-text-primary%2522%253Eprimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-text-secondary%2522%253Esecondary%253C%252Fbutton%253E"
-                            class="code-snippets"
-                            sandbox="allow-scripts allow-same-origin"
-                        >
-                        </iframe>
-                    </code>
+
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-text-primary%2522%253Eprimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-text-secondary%2522%253Esecondary%253C%252Fbutton%253E"
+          class="code-snippets" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
       </div>
       <div class="horizontal-div"></div>
 
@@ -260,14 +256,12 @@
         </button>
       </div>
       <div class="code-snippet-display">
-        <code>
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-save%2522%253E%253C%252Fi%253E%253C%252Fspan%253Esave%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520secondary%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-share%2522%253E%253C%252Fi%253E%253C%252Fspan%253Eshare%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520outline-warning%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253Eadd%2520to%2520cart%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520outline-error%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-trash-alt%2522%253E%253C%252Fi%253E%253C%252Fspan%253Edelete%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520info%2522%253E%253Ci%2520class%253D%2522fas%2520fa-save%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520light%2522%253E%253Ci%2520class%253D%2522fas%2520fa-share%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520outline-dark%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520outline-error%2522%253E%253Ci%2520class%253D%2522fas%2520fa-trash-alt%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E"
-                            class="code-snippets"
-                            sandbox="allow-scripts allow-same-origin"
-                        >
-                        </iframe>
-                    </code>
+
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-save%2522%253E%253C%252Fi%253E%253C%252Fspan%253Esave%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520secondary%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-share%2522%253E%253C%252Fi%253E%253C%252Fspan%253Eshare%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520outline-warning%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253Eadd%2520to%2520cart%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520outline-error%2522%253E%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-trash-alt%2522%253E%253C%252Fi%253E%253C%252Fspan%253Edelete%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520info%2522%253E%253Ci%2520class%253D%2522fas%2520fa-save%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520light%2522%253E%253Ci%2520class%253D%2522fas%2520fa-share%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520outline-dark%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520outline-error%2522%253E%253Ci%2520class%253D%2522fas%2520fa-trash-alt%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E"
+          class="code-snippets" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
       </div>
       <div class="horizontal-div"></div>
 
@@ -300,14 +294,12 @@
         </div>
       </div>
       <div class="code-snippet-display">
-        <code>
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%253Cbutton%2520class%253D%2522btn%2520outline%2520btn-float%2522%253E%253Ci%2520class%253D%2522fas%2520fa-search%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%253Cbutton%2520class%253D%2522btn%2520warning%2520btn-float%2522%253E%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-secondary%2520btn-float%2522%253E%253Ci%2520class%253D%2522fas%2520fa-arrow-up%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%253Cbutton%2520class%253D%2522btn%2520secondary%2520btn-float%2522%253E%253Ci%2520class%253D%2522fas%2520fa-arrow-down%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%253C%252Fdiv%253E"
-                            class="code-snippets"
-                            sandbox="allow-scripts allow-same-origin"
-                        >
-                        </iframe>
-                    </code>
+
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%253Cbutton%2520class%253D%2522btn%2520outline%2520btn-float%2522%253E%253Ci%2520class%253D%2522fas%2520fa-search%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%253Cbutton%2520class%253D%2522btn%2520warning%2520btn-float%2522%253E%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-secondary%2520btn-float%2522%253E%253Ci%2520class%253D%2522fas%2520fa-arrow-up%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%253Cbutton%2520class%253D%2522btn%2520secondary%2520btn-float%2522%253E%253Ci%2520class%253D%2522fas%2520fa-arrow-down%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%253C%252Fdiv%253E"
+          class="code-snippets" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
       </div>
       <div class="horizontal-div"></div>
 
@@ -325,14 +317,12 @@
         <button class="btn outline btn-lg">large</button>
       </div>
       <div class="code-snippet-display">
-        <code>
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cbutton%2520class%253D%2522btn%2520outline%2520btn-sm%2522%253Esmall%253C%252Fbutton%253E%250A%2509%253Cbutton%2520class%253D%2522btn%2520outline%2522%253Edefault%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline%2520btn-md%2522%253Emedium%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline%2520btn-lg%2522%253Elarge%253C%252Fbutton%253E"
-                            class="code-snippets"
-                            sandbox="allow-scripts allow-same-origin"
-                        >
-                        </iframe>
-                    </code>
+
+        <iframe
+          src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%253Cbutton%2520class%253D%2522btn%2520outline%2520btn-sm%2522%253Esmall%253C%252Fbutton%253E%250A%2509%253Cbutton%2520class%253D%2522btn%2520outline%2522%253Edefault%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline%2520btn-md%2522%253Emedium%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline%2520btn-lg%2522%253Elarge%253C%252Fbutton%253E"
+          class="code-snippets" sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
       </div>
     </section>
   </main>

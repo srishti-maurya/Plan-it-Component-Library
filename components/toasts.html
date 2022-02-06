@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plan it, Use it | Toasts</title>
+    <link rel="stylesheet" href="../styles/main.css" />
+    <!-- font awesome icons-->
+    <script src="https://kit.fontawesome.com/692dfd03ca.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navigation -->
+    <nav class="nav">
+        <div class="logo-small-screen">
+            <a href="../index.html"> <img src="../images/logo.png" alt="logo" class="nav-logo" /></a>
+        </div>
+        <ul class="nav-links">
+            <li class="list-style-none">
+                <a href="../index.html"> <img src="../images/logo.png" alt="logo" class="nav-logo" /></a>
+            </li>
+            <li class="list-style-none">
+                <a href="../index.html">Home</a>
+            </li>
+            <li class="list-style-none">
+                <a href="../Docs/introduction.html">Documentation</a>
+            </li>
+        </ul>
+        <ul class="social-media-links">
+            <li class="list-style-none">
+                <a href="https://github.com/srishti-maurya" class="text-primary" target="_blank"><i
+                        class="fab fa-github"></i></a>
+            </li>
+            <li class="list-style-none">
+                <a href="https://twitter.com/SrishtiMaurya1?s=09" class="text-primary" target="_blank"><i
+                        class="fab fa-twitter"></i></a>
+            </li>
+            <li class="list-style-none">
+                <a href="https://www.linkedin.com/in/mauryasrishti22/" class="text-primary" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- responsive section -->
+    <div class="sidebar-toggle-container">
+        <button class="sidebar-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+    <section class="sidebar">
+        <div class="sidebar-header">
+            <a href="../index.html"> <img src="../images/logo.png" class="nav-logo" alt="logo" /></a>
+            <button class="close-btn"><i class="fas fa-times"></i></button>
+        </div>
+        <ul class="sidebar-nav-links text-lg f-bold">
+            <li class="list-style-none">
+                <a href="../index.html">Home</a>
+            </li>
+            <li class="list-style-none">
+                <a href="../Docs/introduction.html">Documentation</a>
+            </li>
+        </ul>
+        <aside class="sidebar-aside">
+            <h2 class="text-xl text-primary-variant">Get started</h2>
+            <div class="horizontal-div"></div>
+            <div class="docs-sub-container">
+                <a href="../Docs/introduction.html" class="docs-link">Introduction</a>
+                <a href="../Docs/colors.html" class="docs-link">Colors</a>
+                <a href="../Docs/typography.html" class="docs-link">Typography</a>
+                <a href="../Docs/conclusion.html" class="docs-link">Conclusion</a>
+            </div>
+            <h2 class="text-xl text-primary-variant">Components</h2>
+            <div class="horizontal-div"></div>
+            <div class="docs-sub-container">
+                <a href="../components/avatar.html" class="docs-link">Avatar</a>
+                <a href="../components/alert.html" class="docs-link">Alert</a>
+                <a href="../components/badge.html" class="docs-link">Badge</a>
+                <a href="../components/button.html" class="docs-link">Button</a>
+                <a href="../components/card.html" class="docs-link">Card</a>
+                <a href="../components/images.html" class="docs-link">Image</a>
+                <a href="../components/input.html" class="docs-link">Input</a>
+                <a href="../components/lists.html" class="docs-link">Lists</a>
+                <a href="../components/toasts.html" class="docs-link active-link">Toasts</a>
+                <a href="../components/ratings.html" class="docs-link">Ratings</a>
+            </div>
+        </aside>
+    </section>
+
+    <!-- section -->
+    <main class="docs-container">
+        <aside class="docs-aside">
+            <h2 class="text-xl text-primary-variant">Get started</h2>
+            <div class="horizontal-div"></div>
+            <div class="docs-sub-container">
+                <a href="../Docs/introduction.html" class="docs-link">Introduction</a>
+                <a href="../Docs/colors.html" class="docs-link">Colors</a>
+                <a href="../Docs/typography.html" class="docs-link">Typography</a>
+                <a href="../Docs/typography.html" class="docs-link">Conclusion</a>
+            </div>
+            <h2 class="text-xl text-primary-variant">Components</h2>
+            <div class="horizontal-div"></div>
+            <div class="docs-sub-container">
+                <a href="./avatar.html" class="docs-link">Avatar</a>
+                <a href="./alert.html" class="docs-link">Alert</a>
+                <a href="./badge.html" class="docs-link">Badge</a>
+                <a href="./button.html" class="docs-link">Button</a>
+                <a href="./card.html" class="docs-link">Card</a>
+                <a href="./images.html" class="docs-link">Image</a>
+                <a href="./input.html" class="docs-link">Input</a>
+                <a href="./lists.html" class="docs-link">Lists</a>
+                <a href="./toasts.html" class="docs-link active-link">Toasts</a>
+                <a href="./ratings.html" class="docs-link">Ratings</a>
+            </div>
+        </aside>
+
+        <section class="components">
+            <h1 class="text-5xl py-2 text-primary-variant">Toast component</h1>
+            <p class="pb-2">
+                The toast component is a non-disruptive message that appears at the bottom of the interface to provide
+                quick, at-a-glance feedback on the outcome of an action.
+            </p>
+            <div class="horizontal-div"></div>
+
+            <h2 class="py-1">Toast</h2>
+            <p class="pb-2">
+                To use toast add class name
+                <span class="text-secondary">toast.</span>For toast direction add class names
+
+                <span class="text-secondary">toast-dir-bottom, toast-dir-top</span>accordingly.
+            </p>
+            <div class="component-example toast-display-container ">
+                <div class="toast">
+                    <div class="toast-header">
+                        <div class="text-xl">Plan it</div>
+                        <div><span class="text-grey">11 mins ago</span><i class="fas fa-times mx-1"></i></div>
+                    </div>
+                    <div class="p-1">
+                        Hello, world! This is a toast message.
+                    </div>
+                </div>
+                <div class="toast">
+                    <div class="toast-body">
+                        Hello, world! This is a toast message.
+                        <i class="fas fa-times"></i>
+                    </div>
+                </div>
+                <div>
+                    <button class="btn btn-text-primary live-bottom-toast">Live bottom toast</button>
+                    <button class="btn btn-text-primary live-top-toast">Live top toast</button>
+                </div>
+                <div class="toast toast-dir-bottom">
+                    <div class="toast-body">
+
+                        Hello, world! This is a toast message.
+
+                        <i class="fas fa-times toast-bottom-close-btn"></i>
+
+                    </div>
+                </div>
+            </div>
+            <div class="toast toast-dir-top">
+                <div class="toast-header">
+                    <div class="text-xl">Plan it</div>
+                    <div><span class="text-grey">11 mins ago</span><i class="fas fa-times mx-1 toast-top-close-btn"></i>
+                    </div>
+                </div>
+                <div class="p-1">
+                    Hello, world! This is a toast message.
+                </div>
+            </div>
+
+            </div>
+            <div class="code-snippet-display">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-dir-bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Hello%252C%2520world%21%2520This%2520is%2520a%2520toast%2520message.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520toast-bottom-close-btn%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast%2520toast-dir-top%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522toast-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-xl%2522%253EPlan%2520it%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%253Cspan%2520class%253D%2522text-grey%2522%253E11%2520mins%2520ago%253C%252Fspan%253E%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fas%2520fa-times%2520mx-1%2520toast-top-close-btn%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522p-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Hello%252C%2520world%21%2520This%2520is%2520a%2520toast%2520message.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    class="code-snippets" sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="p-1 footer">
+        <p class="text-xs pb-1">Made with ❤️ by Srishti Maurya &copy 2022</p>
+        <ul class="social-media-links-footer">
+            <li class="list-style-none">
+                <a href="https://github.com/srishti-maurya" class="text-success" target="_blank"><i
+                        class="fab fa-github"></i></a>
+            </li>
+            <li class="list-style-none">
+                <a href="https://twitter.com/SrishtiMaurya1?s=09" class="text-success" target="_blank"><i
+                        class="fab fa-twitter"></i></a>
+            </li>
+            <li class="list-style-none">
+                <a href="https://www.linkedin.com/in/mauryasrishti22/" class="text-success" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+            </li>
+        </ul>
+    </footer>
+    <script type="text/javascript" src="../main.js"></script>
+    <script type="text/javascript" src="../JS/toast.js"></script>
+</body>
+
+</html>

@@ -88,6 +88,9 @@
         <a href="../components/ratings.html" class="docs-link">Ratings</a>
         <a href="../components/modal.html" class="docs-link">Modal</a>
         <a href="../components/slider.html" class="docs-link">Slider</a>
+        <a href="../components/navigation.html" class="docs-link">Navigation</a>
+        <a href="../components/grids.html" class="docs-link">Grids</a>
+
       </div>
     </aside>
   </section>
@@ -118,6 +121,9 @@
         <a href="./ratings.html" class="docs-link">Ratings</a>
         <a href="./modal.html" class="docs-link">Modal</a>
         <a href="./slider.html" class="docs-link">Slider</a>
+        <a href="./navigation.html" class="docs-link">Navigation</a>
+        <a href="./grids.html" class="docs-link">Grids</a>
+
       </div>
     </aside>
 
@@ -170,19 +176,20 @@
       <p class="pb-2">
         To use icon badge add class name
         <span class="text-secondary">badge-icon</span>to a div tag which is inside a div with a class name <span
-          class="text-secondary">badge-container</span> along with an icon. For different status add class names
-        accordingly
-        <span class="text-secondary">success, offline, error.</span>
+          class="text-secondary">badge-container</span> along with an icon. For different status add class names <span
+          class="text-secondary">success, offline, error</span>accordingly. For small size icon use <span
+          class="text-secondary">badge-small</span>class name with badge-icon.
+
       </p>
 
       <div class="container component-example">
         <div class="badge-container">
-          <div><i class="fas fa-folder fa-3x"></i></div>
-          <div class="badge-icon success">6</div>
+          <div><i class="fas fa-bell"></i></div>
+          <div class="badge-icon badge-small success">6</div>
         </div>
 
         <div class="badge-container">
-          <div><i class="fas fa-bell fa-2x"></i></div>
+          <div><i class="fas fa-folder fa-2x"></i></div>
           <div class="badge-icon offline">18</div>
         </div>
 
@@ -192,8 +199,12 @@
         </div>
 
         <div class="badge-container">
-          <div><i class="fas fa-home fa-3x"></i></div>
-          <div class="badge-icon success">522</div>
+          <div><i class="fas fa-heart fa-2x"></i></div>
+          <div class="badge-icon warning">522</div>
+        </div>
+        <div class="badge-container">
+          <div><i class="fas fa-shopping-cart"></i></div>
+          <div class="badge-icon badge-small success">2</div>
         </div>
       </div>
       <div class="code-snippet-display">

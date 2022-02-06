@@ -17,9 +17,9 @@
 .badge-icon {
   position: absolute;
   border-radius: 50%;
-  border: 2px solid var(--white);
-  right: -20%;
-  top: -20%;
+  border: 2px solid transparent;
+  right: -35%;
+  top: -30%;
   font-size: 0.6rem;
   padding: 0.4rem;
   height: 20%;
@@ -28,6 +28,15 @@
   align-items: center;
   justify-content: center;
   color: var(--white);
+}
+
+.badge-small {
+  right: -45%;
+  top: -45%;
+  font-size: 0.6rem;
+  padding: 0.3rem;
+  height: 10%;
+  width: 10%;
 }
 
 .badge-text {

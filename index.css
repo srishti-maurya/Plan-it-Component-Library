@@ -2,20 +2,24 @@
   --transition: all 0.3s linear;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 /* navigation */
 
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100px;
+  height: 85px;
   padding: 0 2rem;
-  background-color: var(--white-variant);
+  background-color: var(--secondary-light-variant);
   flex-wrap: wrap;
 }
 
 .nav-logo {
-  height: 60px;
+  height: 50px;
 }
 
 .nav-links {
@@ -56,7 +60,7 @@
 }
 
 .installation-container {
-  background-color: var(--white-variant);
+  background-color: var(--secondary-light-variant);
 }
 
 /* footer */
@@ -98,7 +102,9 @@
 .docs-aside {
   width: 20%;
   padding: 1.5rem;
-  background-color: var(--white-variant);
+  background-color: var(--secondary-light-variant);
+  overflow-y: scroll;
+  max-height: 68vh;
 }
 
 .docs-link {
@@ -128,7 +134,7 @@
 .components {
   width: 100%;
   overflow-y: scroll;
-  max-height: 100vh;
+  max-height: 74vh;
   padding-right: 2rem;
 }
 
@@ -316,6 +322,7 @@
   .components {
     margin: 1.2rem;
     padding-right: 0;
+    max-height: 69vh;
   }
   .social-media-links {
     display: none;

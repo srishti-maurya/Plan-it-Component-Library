@@ -1,7 +1,7 @@
 .card-container-vertical {
   width: 250px;
   position: relative;
-  background-color: var(--white-variant);
+  background-color: var(--secondary-light-variant);
   border: 2px solid var(--background);
   margin: 1rem;
 }
@@ -9,7 +9,7 @@
 .card-container-horizontal {
   height: 250px;
   position: relative;
-  background-color: var(--white-variant);
+  background-color: var(--secondary-light-variant);
   border: 2px solid var(--background);
   margin: 1rem;
   display: flex;

@@ -26,6 +26,9 @@
   --warning-variant: #cc9300;
   --info: #9ad0ec;
   --info-variant: #679db9;
+
+  /* shadow */
+  --shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
 }
 
 /* background-colors */
@@ -272,6 +275,10 @@
 
 /* padding */
 
+.pt-1 {
+  padding-top: 1rem;
+}
+
 .py-1 {
   padding: 1rem 0;
 }
@@ -301,6 +308,10 @@
 }
 
 /* margin */
+
+.mt-05 {
+  margin-top: 0.5rem;
+}
 
 .mb-2 {
   margin-bottom: 2rem;

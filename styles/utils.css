@@ -1,7 +1,6 @@
 /* colors */
 
 :root {
-
   --primary: #003459;
   --primary-dark-variant: #001B40;
   --secondary: #2292A4;
@@ -27,10 +26,17 @@
   --info: #9ad0ec;
   --info-variant: #679db9;
 
+  /* for specific components */
+
+  --modal-background-color: rgba(0, 0, 0, 0.5);
+  --card-overlay-text-bg-color: rgba(0, 0, 0, 0.657);
+
   /* shadow */
+
   --shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
   --btn-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  --card-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 /* background-colors */
@@ -260,6 +266,12 @@ h5 {
 
 .text-grey {
   color: var(--moderate);
+}
+
+/* text style */
+
+.text-italic {
+  font-style: italic;
 }
 
 /* displays */

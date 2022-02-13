@@ -1,20 +1,22 @@
-.label-input {
+.input-text-group input {
   margin: 0.5rem;
   padding: 0.5rem;
   border: 1px solid var(--primary);
-  border-radius: 5px;
+
 }
 
-.label-input:hover,
-.label-input:focus {
-  border: 1px solid var(--secondary);
+.input-text-group input:hover,
+.input-text-group input:focus-visible,
+.input-text-group input:focus-within,
+.input-text-group input:focus {
+  border: 1px solid red;
 }
 
 .input-container {
   width: 50%;
-  background-color: var(--background-variant);
+  background-color: var(--background);
   padding: 2rem;
-  border-radius: 10px;
+  box-shadow: var(--card-shadow);
 }
 
 .input-text-group {

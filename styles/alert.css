@@ -6,3 +6,12 @@
   background-color: var(--info);
   color: var(--moderate);
 }
+
+.alert-dismiss {
+  display: flex;
+  justify-content: space-between;
+}
+
+.alert-border-left {
+  border-left: 3px solid var(--primary);
+}

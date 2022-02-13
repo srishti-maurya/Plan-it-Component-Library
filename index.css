@@ -14,7 +14,7 @@
   justify-content: space-between;
   height: 85px;
   padding: 0 2rem;
-  background-color: var(--secondary-light-variant);
+  background-color: var(--background);
   flex-wrap: wrap;
 }
 
@@ -39,7 +39,9 @@
 }
 
 .nav-links li a:hover {
-  color: var(--secondary-dark-variant);
+  color: var(--secondary);
+  font-weight: 900;
+  border-bottom: 1px solid var(--secondary);
 }
 
 .social-media-links {
@@ -49,7 +51,7 @@
 }
 
 .social-media-links i:hover {
-  color: var(--secondary-dark-variant);
+  color: var(--secondary);
 }
 
 /* landing page */
@@ -59,8 +61,28 @@
   padding: 7rem;
 }
 
+.btn-installation {
+  color: var(--secondary);
+  background-color: var(--background);
+  border: 1px solid var(--secondary);
+}
+
+.btn-installation:hover {
+  background-color: var(--background);
+}
+
+.btn-installation a:hover {
+  color: var(--white);
+}
+
+.btn-installation a:link,
+.btn-installation a:visited,
+.btn-installation a:active {
+  color: var(--secondary);
+}
+
 .installation-container {
-  background-color: var(--secondary-light-variant);
+  background-color: var(--background-variant);
 }
 
 /* footer */
@@ -70,18 +92,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--primary);
-  color: var(--white);
-}
-
-.social-media-links-footer {
-  display: flex;
-  width: 250px;
-  justify-content: space-evenly;
-}
-
-.social-media-links-footer i:hover {
-  color: var(--secondary-dark-variant);
+  background-color: var(--background);
+  color: var(--primary);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 /* documentation */
@@ -102,30 +117,29 @@
 .docs-aside {
   width: 20%;
   padding: 1.5rem;
-  background-color: var(--secondary-light-variant);
+  background-color: var(--background);
   overflow-y: scroll;
-  max-height: 68vh;
+  max-height: 80vh;
 }
 
 .docs-link {
   color: var(--primary);
-  padding-bottom: 1rem;
+  padding: 0.5rem;
+  border-left: 2px solid var(--background);
+
 }
 
 .docs-link:hover {
-  color: var(--secondary-dark-variant);
+  color: var(--secondary);
+  background-color: var(--secondary-light-variant);
+  border-left: 2px solid var(--secondary);
+  border-radius: 5px;
 }
 
 .horizontal-div {
   border: 0;
   height: 1px;
-  background: #333;
-  background-image: linear-gradient(
-    to right,
-    var(--secondary-dark-variant),
-    var(--secondary),
-    var(--secondary-dark-variant)
-  );
+  background: var(--grey);
   margin: 0.5rem 0 1.5rem 0;
 }
 
@@ -134,7 +148,7 @@
 .components {
   width: 100%;
   overflow-y: scroll;
-  max-height: 74vh;
+  max-height: 80vh;
   padding-right: 2rem;
 }
 
@@ -142,32 +156,6 @@
   border: 1px solid var(--background);
   padding: 0.5rem;
   box-sizing: border-box;
-}
-
-/* code-snippets */
-
-.code-snippets {
-  border: 0;
-  transform: scale(1);
-  overflow: hidden;
-}
-
-.code-snippet-display {
-  box-sizing: border-box;
-  width: 100%;
-  max-height: 500px;
-  background-color: var(--white-variant);
-  margin: 2rem 0;
-  border: 1px solid var(--secondary);
-}
-
-.code-snippet-display iframe {
-  width: 100%;
-  border: none;
-}
-
-.code-snippet-display-short {
-  max-height: 100px;
 }
 
 /* custom style */
@@ -285,7 +273,7 @@
 
 /* list-container */
 .styled-list-bg {
-  background-color: var(--background);
+  background-color: var(--secondary-light-variant);
   padding: 0.5rem 1.8rem;
 }
 
@@ -298,15 +286,24 @@
   align-items: center;
 }
 
+/* typography */
+.text-display-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.5rem;
+}
+
 /* media queries */
 
 @media (max-width: 875px) {
   .code-snippet-display-short {
     max-height: 120px;
   }
+
   .hero-container {
     padding: 5rem;
   }
+
   .nav-logo {
     height: 50px;
   }
@@ -316,17 +313,21 @@
   .hero-container {
     padding: 3rem;
   }
+
   .docs-aside {
     display: none;
   }
+
   .components {
     margin: 1.2rem;
     padding-right: 0;
     max-height: 69vh;
   }
+
   .social-media-links {
     display: none;
   }
+
   .sidebar-toggle-container {
     display: block;
   }
@@ -336,6 +337,7 @@
   .code-snippet-display-short {
     max-height: 150px;
   }
+
   .hero-container {
     padding: 2rem;
   }
@@ -345,9 +347,11 @@
   .nav-links {
     display: none;
   }
+
   .logo-small-screen {
     display: block;
   }
+
   .social-media-links {
     padding: 0.5rem;
   }

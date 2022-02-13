@@ -5,17 +5,14 @@
   border-radius: 5px;
 }
 
-.label-input:hover {
-  border: 1px solid var(--secondary);
-}
-
+.label-input:hover,
 .label-input:focus {
-  border: 2px solid var(--secondary-dark-variant);
+  border: 1px solid var(--secondary);
 }
 
 .input-container {
   width: 50%;
-  background-color: var(--light);
+  background-color: var(--background-variant);
   padding: 2rem;
   border-radius: 10px;
 }

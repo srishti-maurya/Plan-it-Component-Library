@@ -1,5 +1,5 @@
 /* google fonts */
-@import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* stylesheets */
 
@@ -26,18 +26,18 @@
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: "Alice", serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* global selectors */
 
 html {
   scroll-behavior: smooth;
+  background-color: var(--background);
 }
 
 a {
   text-decoration: none;
-  cursor: pointer;
 }
 
 img {
@@ -48,7 +48,9 @@ span {
   margin-right: 0.4rem;
 }
 
-i {
+i,
+a,
+button {
   cursor: pointer;
 }
 
@@ -62,10 +64,18 @@ i {
 }
 
 .active-link {
-  color: var(--secondary-dark-variant);
-  font-weight: bold;
+  color: var(--secondary);
+  font-weight: 700;
+  background-color: var(--secondary-light-variant);
+  border-left: 2px solid var(--secondary);
+  border-radius: 5px;
+  font-size: 1.1rem;
 }
 
 .list-style-none {
   list-style-type: none;
+}
+
+.round-pill {
+  border-radius: 50px;
 }

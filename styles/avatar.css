@@ -22,7 +22,7 @@
 
 .avatar-variant {
   padding: 0.5rem;
-  background-color: var(--light);
+  background-color: var(--light-variant);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,4 +30,12 @@
 
 .avatar-sq {
   border-radius: 5px;
+}
+
+.avatar-text-wrapper {
+  border: 1px solid var(--background-variant);
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

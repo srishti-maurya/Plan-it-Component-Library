@@ -1,15 +1,13 @@
 .input-text-group input {
-  margin: 0.5rem;
   padding: 0.5rem;
   border: 1px solid var(--primary);
-
 }
 
 .input-text-group input:hover,
 .input-text-group input:focus-visible,
 .input-text-group input:focus-within,
 .input-text-group input:focus {
-  border: 1px solid red;
+  border: 1px solid var(--secondary);
 }
 
 .input-container {

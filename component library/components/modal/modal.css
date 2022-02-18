@@ -1,0 +1,36 @@
+.modal-interstitial {
+  position: fixed;
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-bg-modal);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container {
+  background-color: var(--color-white-500);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  max-width: 500px;
+  border-radius: 10px;
+  border: 1px solid var(--color-dark-700);
+}
+
+.modal-close-btn {
+  background: transparent;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.modal-disabled {
+  display: none;
+}

@@ -1,0 +1,35 @@
+.input-text-group input {
+  padding: 0.5rem;
+  border: 1px solid var(--color-primary-400);
+}
+
+.input-text-group input:hover,
+.input-text-group input:focus-visible,
+.input-text-group input:focus-within,
+.input-text-group input:focus {
+  border: 1px solid var(--color-secondary-400);
+}
+
+.input-container {
+  width: 50%;
+  background-color: var(--color-background-400);
+  padding: 2rem;
+  box-shadow: var(--color-shadow);
+}
+
+.input-text-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-error {
+  border: 1px solid var(--color-error-400);
+}
+
+.input-error:hover {
+  border: 1px solid var(--color-error-900);
+}
+
+.input-error:focus {
+  border: 1px solid var(--color-error-900);
+}

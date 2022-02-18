@@ -1,0 +1,117 @@
+/* button classes */
+
+/* btn */
+.btn {
+  border: none;
+  padding: 0.75rem 1rem;
+  margin: 0.5rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: var(--color-primary-400);
+  color: var(--color-white-400);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.btn:hover {
+  box-shadow: var(--color-btn-shadow);
+  background-color: var(--color-primary-900);
+}
+
+/* btn link */
+.btn-link a {
+  color: var(--color-white-400);
+}
+
+/* btn text */
+.btn-color-text-primary {
+  background-color: var(--color-background-400);
+  color: var(--color-primary-400);
+}
+
+.btn-color-text-secondary {
+  background-color: var(--color-background-400);
+  color: var(--color-secondary-400);
+}
+
+.btn.btn-color-text-primary:hover {
+  background-color: var(--color-primary-400);
+  color: var(--color-white-400);
+}
+
+.btn.btn-color-text-secondary:hover {
+  background-color: var(--color-secondary-400);
+  color: var(--color-white-400);
+}
+
+/* btn contained */
+.btn.color-bg-secondary:hover {
+  background-color: var(--color-secondary-900);
+}
+
+.btn.color-bg-error:hover {
+  background-color: var(--color-error-900);
+}
+
+.btn.color-bg-success:hover {
+  background-color: var(--color-success-900);
+}
+
+.btn.color-bg-warning:hover {
+  background-color: var(--color-warning-900);
+  color: var(--color-white-400);
+}
+
+/* btn outline */
+.btn.color-primary-outline:hover {
+  background-color: var(--color-primary-400);
+  color: var(--color-white-400);
+}
+
+.btn.color-secondary-outline:hover {
+  background-color: var(--color-secondary-400);
+  color: var(--color-white-400);
+}
+
+.btn.color-error-outline:hover {
+  background-color: var(--color-error-400);
+  color: var(--color-white-400);
+}
+
+.btn.color-success-outline:hover {
+  background-color: var(--color-success-400);
+  color: var(--color-white-400);
+}
+
+.btn.color-warning-outline:hover {
+  background-color: var(--color-warning-400);
+  color: var(--color-dark-700);
+}
+
+/* btn float */
+.btn-float {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+}
+
+/* btn sizes */
+.btn-sm {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.btn-md {
+  font-size: 1rem;
+  padding: 1rem 1.2rem;
+}
+
+@media (max-width: 480px) {
+  .btn-sm {
+    font-size: 0.6rem;
+    padding: 0.4rem;
+  }
+}

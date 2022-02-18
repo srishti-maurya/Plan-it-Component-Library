@@ -1,0 +1,17 @@
+.alert {
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 5px;
+  display: flex;
+  background-color: var(--color-info-400);
+  color: var(--color-dark-700);
+}
+
+.alert-dismiss {
+  display: flex;
+  justify-content: space-between;
+}
+
+.alert-border-left {
+  border-left: 3px solid var(--color-primary-400);
+}

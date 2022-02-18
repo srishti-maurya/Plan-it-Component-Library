@@ -1,0 +1,391 @@
+/* colors */
+
+:root {
+  --color-primary-400: #003459;
+  --color-primary-900: #001b40;
+  --color-secondary-400: #2292a4;
+  --color-secondary-900: #09798b;
+  --color-secondary-200: #2293a42a;
+  --color-background-400: #f0f2f4;
+  --color-background-500: #e9ecef;
+  --color-background-600: #dbdedf;
+  --color-background-800: #9bb2bf;
+  --color-dark-600: #191a19;
+  --color-dark-700: #5c5d60;
+  --color-dark-800: #292a2d;
+  --color-success-400: #95cd41;
+  --color-success-900: #629a0e;
+  --color-error-400: #da1212;
+  --color-error-900: #a70000;
+  --color-white-400: #fff;
+  --color-white-500: #f9fcfb;
+  --color-warning-400: #ffc600;
+  --color-warning-900: #cc9300;
+  --color-info-400: #9ad0ec;
+
+  /* for specific components */
+
+  --color-bg-modal: rgba(0, 0, 0, 0.5);
+  --color-bg-card-overlay-text: rgba(0, 0, 0, 0.657);
+
+  /* shadow */
+  --color-btn-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  --color-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+/* background-colors */
+
+.color-bg-primary {
+  background-color: var(--color-primary-400);
+  color: var(--color-white-400);
+}
+
+.color-bg-secondary {
+  background-color: var(--color-secondary-400);
+  color: var(--color-white-400);
+}
+
+.color-bg-success {
+  background-color: var(--color-success-400);
+  color: var(--color-white-400);
+}
+
+.color-bg-offline {
+  background-color: var(--color-dark-700);
+  color: var(--color-white-400);
+}
+
+.color-bg-error {
+  background-color: var(--color-error-400);
+  color: var(--color-white-400);
+}
+
+.color-bg-info {
+  background-color: var(--color-info-400);
+  color: var(--color-dark-700);
+}
+
+.color-bg-warning {
+  background-color: var(--color-warning-400);
+  color: var(--color-dark-700);
+}
+
+.color-bg-light {
+  background-color: var(--color-secondary-200);
+}
+
+.color-primary-outline {
+  background-color: var(--color-background-400);
+  color: var(--color-primary-400);
+  border: 1px solid var(--color-primary-400);
+}
+
+.color-success-outline {
+  background-color: var(--color-background-400);
+  color: var(--color-success-400);
+  border: 1px solid var(--color-success-400);
+}
+
+.color-error-outline {
+  background-color: var(--color-background-400);
+  color: var(--color-error-400);
+  border: 1px solid var(--color-error-400);
+}
+
+.color-warning-outline {
+  background-color: var(--color-background-400);
+  color: var(--color-warning-400);
+  border: 1px solid var(--color-warning-400);
+}
+
+.color-info-outline {
+  background-color: var(--color-background-400);
+  color: var(--color-info-400);
+  border: 1px solid var(--color-info-400);
+}
+
+.color-secondary-outline {
+  background-color: var(--color-background-400);
+  color: var(--color-secondary-400);
+  border: 1px solid var(--color-secondary-400);
+}
+
+/* headings */
+
+.h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 4rem;
+}
+
+.h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+}
+
+.h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+.h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+.h5 {
+  font-size: 0.5rem;
+  font-weight: 700;
+  line-height: 1rem;
+}
+
+/* text-sizes */
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.2rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+/* font weights */
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-black {
+  font-weight: 900;
+}
+
+/* text-align */
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+/* text color */
+
+.color-text-error {
+  color: var(--color-error-400);
+}
+
+.color-text-primary {
+  color: var(--color-primary-400);
+}
+
+.color-text-secondary {
+  color: var(--color-secondary-400);
+}
+
+.color-text-success {
+  color: var(--color-success-400);
+}
+
+.color-text-warning {
+  color: var(--color-warning-400);
+}
+
+.color-text-info {
+  color: var(--color-info-400);
+}
+
+.color-text-dark {
+  color: var(--color-dark-600);
+}
+
+.color-text-grey {
+  color: var(--color-dark-700);
+}
+
+/* text style */
+
+.text-italic {
+  font-style: italic;
+}
+
+/* displays */
+
+.inline-block {
+  display: inline-block;
+}
+
+/* padding */
+
+.p-05 {
+  padding: 0.5rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.pt-1 {
+  padding-top: 1rem;
+}
+
+.pt-2 {
+  padding-top: 2rem;
+}
+
+.pb-05 {
+  padding-bottom: 0.5rem;
+}
+
+.pb-1 {
+  padding-bottom: 1rem;
+}
+
+.pb-2 {
+  padding-bottom: 2rem;
+}
+
+/* margin */
+
+.mt-05 {
+  margin-top: 0.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mx-1 {
+  margin: 0 0.5rem;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+/* media queries */
+
+@media (max-width: 875px) {
+  .text-5xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .text-2xl {
+    font-size: 1.2rem;
+    line-height: 1.75rem;
+  }
+
+  .text-sm {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .text-base {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .p-5 {
+    padding: 3.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .text-5xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .text-2xl {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .p-5 {
+    padding: 2rem;
+  }
+
+  .text-sm {
+    font-size: 0.5rem;
+    line-height: 0.5rem;
+  }
+
+  .text-base {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+}

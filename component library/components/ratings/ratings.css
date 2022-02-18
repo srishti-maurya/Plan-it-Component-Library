@@ -1,0 +1,9 @@
+.checked {
+  color: var(--color-warning-400);
+}
+
+.rating-bg {
+  padding: 0.3rem 0.6rem;
+  border-radius: 8px;
+  background-color: var(--color-secondary-200);
+}

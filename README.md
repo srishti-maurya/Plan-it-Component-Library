@@ -1,7 +1,7 @@
 <div id="top"></div>
 <div align="center">
   <a href="https://github.com/srishti-maurya/Plan-it-Component-Library/tree/develop">
-    <img src="images/logo.png" alt="Logo" height="100">
+    <img src="./website-docs/images/logo.png" alt="Logo" height="100">
   </a>
 
   <h3 align="center">Plan it, Use it - Component Library</h3>
@@ -20,7 +20,6 @@
   </p>
 </div>
 
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -35,20 +34,19 @@
   </ol>
 </details>
 
-
-## About 
+## About
 
 Planning to build an UI project? - Here is your solution!
 
-* a CSS library
-* integrated with pre-defined styled classes
-* helps you to focus more on functionality, when it takes care of your design
-* you can copy and paste the components at one click.
+- a CSS library
+- integrated with pre-defined styled classes
+- helps you to focus more on functionality, when it takes care of your design
+- you can copy and paste the components at one click.
 
 ### Built With
 
-* [HTML 5](https://developer.mozilla.org/en-US/docs/Web/HTML)
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [HTML 5](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -56,35 +54,41 @@ Planning to build an UI project? - Here is your solution!
 
 Copy the link and paste it in the headtag of your `html`, above all other style sheets. i.e. import the stylesheet in your `html` file.
 
-  ```html
- <link rel="stylesheet" href="https://planit-useit.netlify.app/styles/main.css">
-  ```
+```html
+<link
+  rel="stylesheet"
+  href="https://planit-useit.netlify.app/styles/main.css"
+/>
+```
 
 ### Getting started HTML template
 
-   ```html
-   <!DOCTYPE html>
+```html
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://planit-useit.netlify.app/styles/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://planit-useit.netlify.app/styles/main.css"
+    />
     <title>Getting Started</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <h1>Getting started</h1>
-</body>
-
+  </body>
 </html>
-   ```
+```
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Components
 
 The components of Plan it are as follows:
+
   <ol>
     <li><a href="https://develop--planit-useit.netlify.app/components/avatar.html">Avatar</a></li>
     <li><a href="https://develop--planit-useit.netlify.app/components/alert.html">Alert</a></li>

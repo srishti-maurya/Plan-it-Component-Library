@@ -55,10 +55,7 @@ Planning to build an UI project? - Here is your solution!
 Copy the link and paste it in the headtag of your `html`, above all other style sheets. i.e. import the stylesheet in your `html` file.
 
 ```html
-<link
-  rel="stylesheet"
-  href="https://planit-useit.netlify.app/styles/main.css"
-/>
+<link rel="stylesheet" href="../../component library/stylesheet/main.css" />
 ```
 
 ### Getting started HTML template
@@ -70,10 +67,7 @@ Copy the link and paste it in the headtag of your `html`, above all other style 
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://planit-useit.netlify.app/styles/main.css"
-    />
+    <link rel="stylesheet" href="../../component library/stylesheet/main.css" />
     <title>Getting Started</title>
   </head>
 
@@ -90,20 +84,20 @@ Copy the link and paste it in the headtag of your `html`, above all other style 
 The components of Plan it are as follows:
 
   <ol>
-    <li><a href="https://develop--planit-useit.netlify.app/components/avatar.html">Avatar</a></li>
-    <li><a href="https://develop--planit-useit.netlify.app/components/alert.html">Alert</a></li>
-    <li><a href="https://develop--planit-useit.netlify.app/components/badge.html">Badge</a></li>
-    <li><a href="https://develop--planit-useit.netlify.app/components/button.html">Button</a></li>
-    <li><a href="https://develop--planit-useit.netlify.app/components/card.html">Card</a></li>
-    <li><a href="https://develop--planit-useit.netlify.app/components/images.html">Image</a></li>
-    <li><a href="https://develop--planit-useit.netlify.app/components/input.html">Input</a></li>
-    <li><a href="https://develop--planit-useit.netlify.app/components/lists.html">Lists</a></li>
-    <li><a href="https://develop--planit-useit.netlify.app/components/toasts.html">Toasts</a></li>
-    <li><a href="https://develop--planit-useit.netlify.app/components/ratings.html">Ratings</a></li>
-    <li><a href="https://develop--planit-useit.netlify.app/components/modal.html">Modal</a></li>
-    <li><a href="https://develop--planit-useit.netlify.app/components/slider.html">Slider</a></li>
-    <li><a href="https://develop--planit-useit.netlify.app/components/navigation.html">Navigation</a></li>
-    <li><a href="https://develop--planit-useit.netlify.app/components/grids.html">Grids</a></li>
+    <li><a href="https://develop--planit-useit.netlify.app/component%20library/components/avatar/avatar.html">Avatar</a></li>
+    <li><a href="https://develop--planit-useit.netlify.app/component%20library/components/alert/alert.html">Alert</a></li>
+    <li><a href="https://develop--planit-useit.netlify.app/component%20library/components/badge/badge.html">Badge</a></li>
+    <li><a href="https://develop--planit-useit.netlify.app/component%20library/components/button/button.html">Button</a></li>
+    <li><a href="https://develop--planit-useit.netlify.app/component%20library/components/card/card.html">Card</a></li>
+    <li><a href="https://develop--planit-useit.netlify.app/component%20library/components/images/images.html">Image</a></li>
+    <li><a href="https://develop--planit-useit.netlify.app/component%20library/components/input/input.html">Input</a></li>
+    <li><a href="https://develop--planit-useit.netlify.app/component%20library/components/lists/lists.html">Lists</a></li>
+    <li><a href="https://develop--planit-useit.netlify.app/component%20library/components/toasts/toasts.html">Toasts</a></li>
+    <li><a href="https://develop--planit-useit.netlify.app/component%20library/components/ratings/ratings.html">Ratings</a></li>
+    <li><a href="https://develop--planit-useit.netlify.app/component%20library/components/modal/modal.html">Modal</a></li>
+    <li><a href="https://develop--planit-useit.netlify.app/component%20library/components/slider/slider.html">Slider</a></li>
+    <li><a href="https://develop--planit-useit.netlify.app/component%20library/components/navigation/navigation.html">Navigation</a></li>
+    <li><a href="https://develop--planit-useit.netlify.app/component%20library/components/grids/grids.html">Grids</a></li>
   </ol>
 
 <p align="right">(<a href="#top">back to top</a>)</p>

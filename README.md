@@ -102,6 +102,11 @@ The components of Plan it are as follows:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## Landing Page
+
+![Landing Page](https://user-images.githubusercontent.com/39724354/154941434-9c5d2eb3-f8a9-4c06-877b-8383a5adcb3d.png)
+
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
